@@ -1,0 +1,350 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block title %}Bulk Upload Images — {{ product.name }}{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+  <a href="{% url 'admin:index' %}">Home</a> ›
+  <a href="{% url 'admin:products_wigproduct_changelist' %}">Wig Products</a> ›
+  <a href="../change/">{{ product.name }}</a> ›
+  Bulk Image Upload
+</div>
+{% endblock %}
+
+{% block content %}
+<style>
+  :root {
+    --soie-black:  #1A1A1A;
+    --soie-gold:   #C9A96E;
+    --soie-ivory:  #FDFAF6;
+    --soie-blush:  #F0EBE3;
+    --soie-border: #E8E0D5;
+    --soie-muted:  #9A8F87;
+  }
+  .upload-area {
+    background: var(--soie-blush);
+    border: 2px dashed var(--soie-gold);
+    border-radius: 8px;
+    padding: 48px 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    margin: 20px 0;
+    position: relative;
+  }
+  .upload-area.drag-over {
+    background: #e8dfd4;
+    border-color: var(--soie-black);
+  }
+  .upload-area h3 {
+    font-size: 20px;
+    color: var(--soie-black);
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .upload-area p { color: var(--soie-muted); font-size: 13px; margin: 4px 0; }
+  .upload-area .gold { color: var(--soie-gold); font-weight: 600; }
+  #id_images { display: none; }
+  .preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .preview-item {
+    position: relative;
+    border: 1px solid var(--soie-border);
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--soie-blush);
+  }
+  .preview-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+  }
+  .preview-item .info {
+    padding: 6px 8px;
+    background: var(--soie-ivory);
+  }
+  .preview-item .info p {
+    font-size: 10px;
+    color: var(--soie-muted);
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .preview-item .badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background: var(--soie-gold);
+    color: #fff;
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .preview-item .remove-btn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+  .options-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0;
+    padding: 16px;
+    background: var(--soie-blush);
+    border-radius: 4px;
+  }
+  .options-row label { font-size: 13px; color: var(--soie-black); cursor: pointer; display: flex; align-items: center; gap: 8px; }
+  .submit-btn {
+    background: var(--soie-black);
+    color: var(--soie-ivory);
+    border: none;
+    padding: 13px 36px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.25s;
+    margin-right: 12px;
+  }
+  .submit-btn:hover:not(:disabled) { background: var(--soie-gold); }
+  .submit-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .cancel-link { font-size: 13px; color: var(--soie-muted); text-decoration: none; }
+  .cancel-link:hover { color: var(--soie-black); }
+  .count-badge {
+    display: inline-block;
+    background: var(--soie-gold);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  .progress-bar-wrap {
+    display: none;
+    background: var(--soie-border);
+    height: 4px;
+    border-radius: 2px;
+    margin: 16px 0;
+    overflow: hidden;
+  }
+  .progress-bar-wrap.show { display: block; }
+  .progress-bar {
+    height: 100%;
+    background: var(--soie-gold);
+    width: 0%;
+    transition: width 0.3s;
+  }
+  .upload-done {
+    display: none;
+    background: #f0faf0;
+    border: 1px solid #4A7C59;
+    color: #2d5a3d;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  .upload-done.show { display: block; }
+</style>
+
+<h1 style="margin-bottom:6px;">
+  Bulk Image Upload
+  <span id="fileCount" class="count-badge" style="display:none">0 files</span>
+</h1>
+<p style="color:var(--soie-muted);font-size:13px;margin-bottom:24px;">
+  Product: <strong style="color:var(--soie-black)">{{ product.name }}</strong>
+</p>
+
+<!-- Messages -->
+{% if messages %}
+  {% for message in messages %}
+    <div class="messagelist">
+      <li class="{{ message.tags }}">{{ message }}</li>
+    </div>
+  {% endfor %}
+{% endif %}
+
+<!-- Upload area -->
+<div class="upload-area" id="dropZone" onclick="document.getElementById('id_images').click()">
+  <svg width="40" height="40" fill="none" stroke="var(--soie-gold)" stroke-width="1.5" viewBox="0 0 24 24" style="margin:0 auto 16px">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"/>
+  </svg>
+  <h3>Drop images here or click to browse</h3>
+  <p>Hold <strong>Ctrl</strong> (Windows) or <strong>Cmd</strong> (Mac) to select multiple files at once</p>
+  <p class="gold" style="margin-top:10px">JPG · PNG · WEBP · Multiple files supported</p>
+  <input type="file" name="images" id="id_images" multiple accept="image/*" />
+</div>
+
+<!-- Preview grid -->
+<div id="previewGrid" class="preview-grid"></div>
+
+<!-- Progress bar (for AJAX upload) -->
+<div class="progress-bar-wrap" id="progressWrap">
+  <div class="progress-bar" id="progressBar"></div>
+</div>
+
+<!-- Options -->
+<div class="options-row">
+  <label>
+    <input type="checkbox" id="setPrimary" checked />
+    Set first image as product primary photo
+  </label>
+</div>
+
+<!-- Done message -->
+<div class="upload-done" id="doneMsg"></div>
+
+<!-- Actions -->
+<div style="margin-top:8px;">
+  <button class="submit-btn" id="uploadBtn" disabled onclick="startUpload()">
+    Upload Images
+  </button>
+  <a href="../change/" class="cancel-link">Cancel</a>
+</div>
+
+<script>
+const dropZone   = document.getElementById('dropZone');
+const fileInput  = document.getElementById('id_images');
+const previewGrid = document.getElementById('previewGrid');
+const uploadBtn  = document.getElementById('uploadBtn');
+const fileCountBadge = document.getElementById('fileCount');
+const progressWrap = document.getElementById('progressWrap');
+const progressBar  = document.getElementById('progressBar');
+const doneMsg      = document.getElementById('doneMsg');
+
+let selectedFiles = [];
+
+// ── File selection ────────────────────────────────────────────────────────
+fileInput.addEventListener('change', () => {
+  addFiles(Array.from(fileInput.files));
+});
+
+// ── Drag-and-drop ─────────────────────────────────────────────────────────
+dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+dropZone.addEventListener('drop', e => {
+  e.preventDefault();
+  dropZone.classList.remove('drag-over');
+  const imgs = Array.from(e.dataTransfer.files).filter(f => f.type.startsWith('image/'));
+  addFiles(imgs);
+});
+
+function addFiles(files) {
+  files.forEach(f => {
+    if (!selectedFiles.find(sf => sf.name === f.name && sf.size === f.size)) {
+      selectedFiles.push(f);
+    }
+  });
+  renderPreviews();
+}
+
+function removeFile(idx) {
+  selectedFiles.splice(idx, 1);
+  renderPreviews();
+}
+
+function renderPreviews() {
+  previewGrid.innerHTML = '';
+  selectedFiles.forEach((file, idx) => {
+    const reader = new FileReader();
+    reader.onload = e => {
+      const item = document.createElement('div');
+      item.className = 'preview-item';
+      item.innerHTML = `
+        ${idx === 0 ? '<span class="badge">Primary</span>' : ''}
+        <button class="remove-btn" onclick="removeFile(${idx})" title="Remove">✕</button>
+        <img src="${e.target.result}" alt="${file.name}"/>
+        <div class="info">
+          <p title="${file.name}">${file.name}</p>
+          <p>${(file.size / 1024).toFixed(0)} KB</p>
+        </div>
+      `;
+      previewGrid.appendChild(item);
+    };
+    reader.readAsDataURL(file);
+  });
+
+  const count = selectedFiles.length;
+  uploadBtn.disabled = count === 0;
+  uploadBtn.textContent = count > 0 ? `Upload ${count} Image${count !== 1 ? 's' : ''}` : 'Upload Images';
+  fileCountBadge.style.display = count > 0 ? 'inline-block' : 'none';
+  fileCountBadge.textContent = `${count} file${count !== 1 ? 's' : ''}`;
+}
+
+// ── AJAX upload ───────────────────────────────────────────────────────────
+function startUpload() {
+  if (!selectedFiles.length) return;
+
+  const formData = new FormData();
+  selectedFiles.forEach(f => formData.append('images', f));
+  formData.append('set_first_as_primary', document.getElementById('setPrimary').checked ? 'true' : 'false');
+
+  uploadBtn.disabled = true;
+  uploadBtn.textContent = 'Uploading...';
+  progressWrap.classList.add('show');
+  doneMsg.classList.remove('show');
+
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', '{{ api_upload_url }}');
+
+  xhr.upload.onprogress = e => {
+    if (e.lengthComputable) {
+      const pct = Math.round((e.loaded / e.total) * 100);
+      progressBar.style.width = pct + '%';
+    }
+  };
+
+  xhr.onload = () => {
+    try {
+      const res = JSON.parse(xhr.responseText);
+      if (res.success) {
+        doneMsg.textContent = `${res.message}. Redirecting to product...`;
+        doneMsg.classList.add('show');
+        progressBar.style.width = '100%';
+        setTimeout(() => { window.location.href = '../change/'; }, 1500);
+      } else {
+        showError(res.error || 'Upload failed.');
+      }
+    } catch {
+      showError('Unexpected response from server.');
+    }
+  };
+
+  xhr.onerror = () => showError('Network error. Please try again.');
+  xhr.send(formData);
+}
+
+function showError(msg) {
+  uploadBtn.disabled = false;
+  uploadBtn.textContent = `Retry Upload (${selectedFiles.length} files)`;
+  progressWrap.classList.remove('show');
+  doneMsg.textContent = 'Error: ' + msg;
+  doneMsg.style.background = '#fdf0f0';
+  doneMsg.style.borderColor = '#C0392B';
+  doneMsg.style.color = '#7b1414';
+  doneMsg.classList.add('show');
+}
+</script>
+{% endblock %}

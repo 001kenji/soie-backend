@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Jost:wght@300;400&display=swap');
+  body { margin:0; padding:0; background:#FDFAF6; font-family:'Jost',Arial,sans-serif; color:#2D2D2D; }
+  .wrapper { max-width:600px; margin:0 auto; }
+  .header { background:#1A1A1A; padding:40px; text-align:center; }
+  .logo { font-family:'Cormorant Garamond',Georgia,serif; font-size:32px; color:#C9A96E; letter-spacing:8px; }
+  .body { padding:48px 40px; }
+  .headline { font-family:'Cormorant Garamond',Georgia,serif; font-size:26px; color:#1A1A1A; margin:0 0 8px; }
+  .order-number { color:#C9A96E; font-size:14px; letter-spacing:2px; text-transform:uppercase; margin-bottom:32px; }
+  .text { font-size:15px; line-height:1.8; color:#4A4A4A; font-weight:300; margin:0 0 24px; }
+  .table { width:100%; border-collapse:collapse; margin:24px 0; }
+  .table th { background:#F0EBE3; padding:12px 16px; text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:1.5px; color:#9A8F87; font-weight:400; }
+  .table td { padding:12px 16px; border-bottom:1px solid #E8E0D5; font-size:14px; }
+  .total-row td { font-weight:600; border-bottom:none; padding-top:16px; }
+  .divider { height:1px; background:#E8E0D5; margin:32px 0; }
+  .shipping-box { background:#F0EBE3; padding:24px; margin:24px 0; }
+  .shipping-label { font-size:11px; text-transform:uppercase; letter-spacing:1.5px; color:#9A8F87; margin-bottom:8px; }
+  .shipping-value { font-size:14px; color:#2D2D2D; line-height:1.6; }
+  .delivery-note { font-size:13px; color:#C9A96E; margin-top:8px; }
+  .cta-btn { display:inline-block; background:#1A1A1A; color:#FDFAF6 !important; text-decoration:none; padding:14px 36px; font-size:13px; letter-spacing:2px; text-transform:uppercase; }
+  .footer { padding:32px 40px; border-top:1px solid #E8E0D5; text-align:center; }
+  .footer-text { font-size:12px; color:#9A8F87; line-height:1.8; }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header"><div class="logo">SOIE</div></div>
+  <div class="body">
+    <p class="headline">Order Confirmed</p>
+    <p class="order-number">Order #{{ order.order_number }}</p>
+    <p class="text">Thank you, {{ user.first_name }}. Your order has been received and is now being processed. We will notify you once your package ships.</p>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Length</th>
+          <th>Qty</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in order.items.all %}
+        <tr>
+          <td>{{ item.product_name }}</td>
+          <td>{{ item.inches }}"</td>
+          <td>{{ item.quantity }}</td>
+          <td>${{ item.subtotal }}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+          <td colspan="3" style="text-align:right;color:#9A8F87;font-size:13px;">Shipping</td>
+          <td>${{ order.shipping_fee }}</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="3" style="text-align:right;font-size:16px;">Total</td>
+          <td style="font-size:16px;color:#1A1A1A;">${{ order.total }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="shipping-box">
+      <div class="shipping-label">Delivering To</div>
+      <div class="shipping-value">
+        {{ order.shipping_address.full_name }}<br>
+        {{ order.shipping_address.address_line1 }}<br>
+        {{ order.shipping_address.city }}, {{ order.shipping_address.country }}
+      </div>
+      <div class="delivery-note">Estimated delivery: {{ order.estimated_delivery }}</div>
+    </div>
+
+    <div class="divider"></div>
+    <a href="{{ frontend_url }}/orders" class="cta-btn">Track My Order</a>
+  </div>
+  <div class="footer">
+    <p class="footer-text">SOIE — Premium Wigs<br>hello@soiehair.com</p>
+  </div>
+</div>
+</body>
+</html>

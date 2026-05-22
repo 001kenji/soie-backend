@@ -1,0 +1,322 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls static %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  <style>
+    .upload-modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .upload-modal-overlay.active {
+      display: flex;
+    }
+    .upload-modal {
+      background: white;
+      padding: 24px;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .upload-dropzone {
+      border: 2px dashed #ccc;
+      border-radius: 6px;
+      padding: 40px 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin: 16px 0;
+    }
+    .upload-dropzone:hover, .upload-dropzone.dragover {
+      border-color: #417690;
+      background: #f8f9fa;
+    }
+    .upload-dropzone input {
+      display: none;
+    }
+    .file-list {
+      margin: 12px 0;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    .file-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px;
+      background: #f5f5f5;
+      border-radius: 4px;
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+    .file-item img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .upload-progress {
+      height: 4px;
+      background: #e0e0e0;
+      border-radius: 2px;
+      margin-top: 12px;
+      overflow: hidden;
+    }
+    .upload-progress-bar {
+      height: 100%;
+      background: #417690;
+      width: 0%;
+      transition: width 0.3s;
+    }
+    .upload-actions {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+      margin-top: 16px;
+    }
+    .btn-upload {
+      background: #417690;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .btn-upload:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .btn-cancel {
+      background: #f5f5f5;
+      border: 1px solid #ccc;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .upload-btn-inline {
+      background: #417690;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      margin-left: 8px;
+    }
+    .upload-success {
+      color: #4A7C59;
+      background: #e8f5e9;
+      padding: 10px;
+      border-radius: 4px;
+      margin-top: 12px;
+      font-size: 13px;
+    }
+    .upload-error {
+      color: #C0392B;
+      background: #ffebee;
+      padding: 10px;
+      border-radius: 4px;
+      margin-top: 12px;
+      font-size: 13px;
+    }
+  </style>
+{% endblock %}
+
+{% block object-tools-items %}
+  {{ block.super }}
+  {% if show_upload_modal and original %}
+    <li>
+      <button type="button" class="upload-btn-inline" onclick="openUploadModal()">
+        📷 Bulk Upload Images
+      </button>
+    </li>
+  {% endif %}
+{% endblock %}
+
+{% block after_related_objects %}
+  {{ block.super }}
+  
+  {% if show_upload_modal and original %}
+  <!-- Upload Modal -->
+  <div id="uploadModal" class="upload-modal-overlay">
+    <div class="upload-modal">
+      <h2 style="margin:0 0 4px;font-size:18px;">Bulk Upload Images</h2>
+      <p style="margin:0;color:#666;font-size:13px;">{{ original.name }}</p>
+      
+      <div class="upload-dropzone" id="dropzone" onclick="document.getElementById('fileInput').click()">
+        <input type="file" id="fileInput" multiple accept="image/*" onchange="handleFiles(this.files)">
+        <div style="font-size:32px;margin-bottom:8px;">📁</div>
+        <p style="margin:0;font-size:14px;color:#666;">Click or drag images here</p>
+        <p style="margin:4px 0 0;font-size:12px;color:#999;">Hold Ctrl/Cmd to select multiple</p>
+      </div>
+      
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;cursor:pointer;">
+        <input type="checkbox" id="setPrimary" checked>
+        Set first image as primary
+      </label>
+      
+      <div class="file-list" id="fileList"></div>
+      
+      <div class="upload-progress" id="progressContainer" style="display:none;">
+        <div class="upload-progress-bar" id="progressBar"></div>
+      </div>
+      
+      <div id="uploadStatus"></div>
+      
+      <div class="upload-actions">
+        <button type="button" class="btn-cancel" onclick="closeUploadModal()">Cancel</button>
+        <button type="button" class="btn-upload" id="uploadBtn" onclick="uploadFiles()" disabled>
+          Upload <span id="fileCount">0</span> files
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let selectedFiles = [];
+    const apiUrl = '{{ api_upload_url }}';
+    const changeUrl = window.location.pathname;
+
+    function openUploadModal() {
+      document.getElementById('uploadModal').classList.add('active');
+      selectedFiles = [];
+      updateFileList();
+    }
+
+    function closeUploadModal() {
+      document.getElementById('uploadModal').classList.remove('active');
+      document.getElementById('uploadStatus').innerHTML = '';
+      document.getElementById('progressBar').style.width = '0%';
+      document.getElementById('progressContainer').style.display = 'none';
+    }
+
+    // Drag & drop
+    const dropzone = document.getElementById('dropzone');
+    dropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropzone.classList.add('dragover');
+    });
+    dropzone.addEventListener('dragleave', () => {
+      dropzone.classList.remove('dragover');
+    });
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('dragover');
+      handleFiles(e.dataTransfer.files);
+    });
+
+    function handleFiles(files) {
+      selectedFiles = Array.from(files).filter(f => f.type.startsWith('image/'));
+      updateFileList();
+    }
+
+    function updateFileList() {
+      const list = document.getElementById('fileList');
+      const btn = document.getElementById('uploadBtn');
+      const count = document.getElementById('fileCount');
+      
+      if (selectedFiles.length === 0) {
+        list.innerHTML = '';
+        btn.disabled = true;
+        count.textContent = '0';
+        return;
+      }
+      
+      list.innerHTML = selectedFiles.map((file, i) => `
+        <div class="file-item">
+          <img src="${URL.createObjectURL(file)}" alt="">
+          <span style="flex:1;overflow:hidden;text-overflow:ellipsis;">${file.name}</span>
+          <span style="color:#999;font-size:11px;">${(file.size/1024).toFixed(1)} KB</span>
+          <button type="button" onclick="removeFile(${i})" style="background:none;border:none;cursor:pointer;color:#999;font-size:16px;">×</button>
+        </div>
+      `).join('');
+      
+      btn.disabled = false;
+      count.textContent = selectedFiles.length;
+    }
+
+    function removeFile(index) {
+      selectedFiles.splice(index, 1);
+      updateFileList();
+    }
+
+    async function uploadFiles() {
+      const btn = document.getElementById('uploadBtn');
+      const status = document.getElementById('uploadStatus');
+      const progress = document.getElementById('progressBar');
+      const progressContainer = document.getElementById('progressContainer');
+      
+      btn.disabled = true;
+      progressContainer.style.display = 'block';
+      status.innerHTML = '';
+      
+      const formData = new FormData();
+      selectedFiles.forEach(file => formData.append('images', file));
+      formData.append('set_first_as_primary', document.getElementById('setPrimary').checked);
+      
+      // Get CSRF token from cookie
+      const csrftoken = document.cookie.match(/csrftoken=[^;]+/)?.[0].split('=')[1];
+      
+      try {
+        const xhr = new XMLHttpRequest();
+        
+        xhr.upload.addEventListener('progress', (e) => {
+          if (e.lengthComputable) {
+            const pct = (e.loaded / e.total) * 100;
+            progress.style.width = pct + '%';
+          }
+        });
+        
+        xhr.addEventListener('load', () => {
+          progress.style.width = '100%';
+          
+          if (xhr.status === 200) {
+            const data = JSON.parse(xhr.responseText);
+            status.innerHTML = `<div class="upload-success">✓ ${data.message}</div>`;
+            
+            // Reload page after 1.5s to show new images
+            setTimeout(() => {
+              window.location.reload();
+            }, 1500);
+          } else {
+            const err = JSON.parse(xhr.responseText);
+            status.innerHTML = `<div class="upload-error">✗ ${err.error || 'Upload failed'}</div>`;
+            btn.disabled = false;
+          }
+        });
+        
+        xhr.addEventListener('error', () => {
+          status.innerHTML = `<div class="upload-error">✗ Network error. Please try again.</div>`;
+          btn.disabled = false;
+        });
+        
+        xhr.open('POST', apiUrl);
+        if (csrftoken) xhr.setRequestHeader('X-CSRFToken', csrftoken);
+        xhr.send(formData);
+        
+      } catch (err) {
+        status.innerHTML = `<div class="upload-error">✗ ${err.message}</div>`;
+        btn.disabled = false;
+      }
+    }
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeUploadModal();
+    });
+    
+    // Close modal on overlay click
+    document.getElementById('uploadModal').addEventListener('click', (e) => {
+      if (e.target.id === 'uploadModal') closeUploadModal();
+    });
+  </script>
+  {% endif %}
+{% endblock %}
