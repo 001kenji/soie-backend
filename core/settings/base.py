@@ -2,6 +2,7 @@ from pathlib import Path
 from decouple import config, Csv
 from datetime import timedelta
 import os
+import dj_database_url 
 from dotenv import load_dotenv 
 load_dotenv() 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
