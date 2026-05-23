@@ -30,6 +30,9 @@ class ProductListView(generics.ListAPIView):
             .prefetch_related('images', 'reviews')
         )
 
+    # DRF ListAPIView already passes request in context automatically.
+    # No override needed here — just confirming.
+
 
 class FeaturedProductsView(generics.ListAPIView):
     serializer_class   = WigProductListSerializer
@@ -73,9 +76,9 @@ class ProductDetailView(generics.RetrieveAPIView):
         )
 
     def get_serializer_context(self):
-        # Pass request so the serializer can inspect request.user for review visibility
+        # Explicitly pass request so image URLs are absolute
         ctx = super().get_serializer_context()
-        ctx['request'] = self.request
+        ctx['request'] = self.request   # already done by DRF, but explicit is clear
         return ctx
 
 
