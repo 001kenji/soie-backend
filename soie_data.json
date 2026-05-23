@@ -105,6 +105,25 @@
 {
   "model": "accounts.user",
   "fields": {
+    "password": "pbkdf2_sha256$1200000$EWucm64BPuUqqmyEllrFQM$utOwU7P6/NIUebDy5es0GgjntMDl/a6VkYB/0mml0CI=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "funke.adeleke@soiereview.com",
+    "first_name": "Funke",
+    "last_name": "Adeleke",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:38.341Z",
+    "updated_at": "2026-05-23T17:57:39.171Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
     "password": "pbkdf2_sha256$1200000$Ju3IAGFua0TEgKB8PSi80y$J2sbnOglTC14uSt7aVkW/JOTJkL/A4Mliq6IU0FmT94=",
     "last_login": null,
     "is_superuser": false,
@@ -143,6 +162,25 @@
 {
   "model": "accounts.user",
   "fields": {
+    "password": "pbkdf2_sha256$1200000$agcx35LoGVXxdzZToMM9uU$iAuF8DwpWINyjRyjVfTiYsEd5WBPSUNFDQbdc6/AoEU=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "esther.anane@soiereview.com",
+    "first_name": "Esther",
+    "last_name": "Anane",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:44.164Z",
+    "updated_at": "2026-05-23T17:57:44.989Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
     "password": "pbkdf2_sha256$1200000$R4qqRRSMe4LCcKl77V7pyP$grGgD2jjsibTWw+7lo07zMaHjf87hRS1mMO2751bBLw=",
     "last_login": null,
     "is_superuser": false,
@@ -155,6 +193,25 @@
     "is_staff": false,
     "date_joined": "2026-05-23T17:08:54.915Z",
     "updated_at": "2026-05-23T17:08:55.763Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$6SJl0RcilBoS17eoSl2OCK$O+p4hiKt0MCHQjAWxYlwqqJ6V2v/N0DATcpsK4ARvQQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "ifeoma.ekwueme@soiereview.com",
+    "first_name": "Ifeoma",
+    "last_name": "Ekwueme",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:45.820Z",
+    "updated_at": "2026-05-23T17:57:46.639Z",
     "groups": [],
     "user_permissions": []
   }
@@ -193,6 +250,25 @@
     "is_staff": false,
     "date_joined": "2026-05-23T17:08:41.384Z",
     "updated_at": "2026-05-23T17:08:42.248Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$MvlUw43RMRdeHVSght0LB8$k4LrkveiTi25Pr662et7Hna5WN0WwK0gYBzRx2i7/DU=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "kemi.adebayo@soiereview.com",
+    "first_name": "Kemi",
+    "last_name": "Adebayo",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:41.632Z",
+    "updated_at": "2026-05-23T17:57:42.445Z",
     "groups": [],
     "user_permissions": []
   }
@@ -250,6 +326,25 @@
     "is_staff": false,
     "date_joined": "2026-05-23T17:08:40.521Z",
     "updated_at": "2026-05-23T17:08:41.380Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$auPxi9geQVGXBfVcRPTmwj$raVJjuTlViM7x9wGUv1R/Ij5hd0xRr7ceZvTo4sc5d8=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "nonhlanhla.dlamini@soiereview.com",
+    "first_name": "Nonhlanhla",
+    "last_name": "Dlamini",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:43.306Z",
+    "updated_at": "2026-05-23T17:57:44.160Z",
     "groups": [],
     "user_permissions": []
   }
@@ -542,6 +637,25 @@
 {
   "model": "accounts.user",
   "fields": {
+    "password": "pbkdf2_sha256$1200000$KMUWB8KaSVAjXIOBIR4xKd$vRNCio8eIDXhCFnHySlVmzBrwrAQ9Cg8CDORndcm2tM=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "gloria.ntombela@soiereview.com",
+    "first_name": "Gloria",
+    "last_name": "Ntombela",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:44.991Z",
+    "updated_at": "2026-05-23T17:57:45.817Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
     "password": "pbkdf2_sha256$1200000$8hMWTo6s4eRDFyXD06UD8a$muMhqnEe0tZSaX4FubdGeOAdk3DfkHftF0OaYsKmEj4=",
     "last_login": null,
     "is_superuser": false,
@@ -618,6 +732,44 @@
 {
   "model": "accounts.user",
   "fields": {
+    "password": "pbkdf2_sha256$1200000$Ui28HWJiRuKNZSwSM7LWx1$za0rGmfOgSh9viAMv5XeeNrfNt7kclsQWRo23q43w6U=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "lindiwe.ndlovu@soiereview.com",
+    "first_name": "Lindiwe",
+    "last_name": "Ndlovu",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:40.814Z",
+    "updated_at": "2026-05-23T17:57:41.630Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$CmEQsVWns7rZVtUz9TkrMN$2tAaJtzj/nYKYuo0DijUPfQA7rujt9f9vGYynL68KfM=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "tendai.moyo@soiereview.com",
+    "first_name": "Tendai",
+    "last_name": "Moyo",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:39.185Z",
+    "updated_at": "2026-05-23T17:57:39.996Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
     "password": "pbkdf2_sha256$1200000$JO3yA7sfApCEtfpPxeARUD$1uUT7rYXqa15kANXrXw0TU7Kh/wDsJEbhz6gKRV+qb0=",
     "last_login": null,
     "is_superuser": false,
@@ -656,6 +808,25 @@
 {
   "model": "accounts.user",
   "fields": {
+    "password": "pbkdf2_sha256$1200000$BMgNLFdTXjiEufvVlRv6QJ$CxF4DVIe5idAE9gLacmewr/Vr2cy8/ToAb3slw6gpiU=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "priscilla.opoku@soiereview.com",
+    "first_name": "Priscilla",
+    "last_name": "Opoku",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:42.450Z",
+    "updated_at": "2026-05-23T17:57:43.303Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
     "password": "pbkdf2_sha256$1200000$SnaypaLOcAT9yKUTPVgtCX$5Cf1Ri19qAPMpmV3bbz/mAawCTjDXqkHhsJYZZFIyQI=",
     "last_login": null,
     "is_superuser": false,
@@ -668,6 +839,25 @@
     "is_staff": false,
     "date_joined": "2026-05-23T17:08:46.510Z",
     "updated_at": "2026-05-23T17:08:47.367Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$FcXU9iW0KmaKg9OXfI6QCp$gjV07EABeL0g2gS8LMrskkULZQsaVifKuv43rdjcics=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "chiamaka.okafor@soiereview.com",
+    "first_name": "Chiamaka",
+    "last_name": "Okafor",
+    "avatar": "",
+    "phone": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-05-23T17:57:39.999Z",
+    "updated_at": "2026-05-23T17:57:40.810Z",
     "groups": [],
     "user_permissions": []
   }
@@ -4877,6 +5067,246 @@
 },
 {
   "model": "products.review",
+  "pk": "0079f154-6767-4125-b976-4fbb1be5d3ac",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.923Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "009a277d-3ad8-4bc9-bdfd-8e523fa52bfd",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "This wig is absolutely beautiful. Will definitely order again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.946Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "009c14f1-1163-4006-bbb8-3dfbcc4cbe68",
+  "fields": {
+    "product": "002f1d77-47e9-45d3-a601-4422625ff3f7",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.138Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "01e40a73-d57d-4da1-a85a-da14ec6ad0b6",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "This wig is absolutely beautiful. Will definitely order again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.217Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "022da567-c497-4970-84fa-b29ca50cc303",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "ifeoma.ekwueme@soiereview.com"
+    ],
+    "reviewer_name": "Ifeoma Ekwueme",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.169Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "02cd519c-e7b5-47e1-a8fd-e9a7ed3c1e37",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "The lace is invisible and the hair is so silky. Best purchase I've made this year.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.854Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "02d468c8-e553-4ec7-940c-dc00ae3be622",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.069Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "037953c3-f629-45cf-b8f2-3313bc4fd727",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.861Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "04775236-0282-4bb0-9e5c-265ff89be0b4",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "diana.abiodun@soiereview.com"
+    ],
+    "reviewer_name": "Diana Abiodun",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.939Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "05d7987a-3f6b-4c37-b2dd-f18aab5a6fd1",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.789Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "06188d00-91a2-444a-8240-71ad504d9ca7",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.208Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "06238afd-adfb-4f95-bf3d-44657bd8da4c",
+  "fields": {
+    "product": "8a9ea2f7-f05e-4500-9b81-ff593ea0baa3",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.687Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "06249354-85c3-4e20-a241-99f59ad7dd99",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "This wig is worth every penny. The quality is unmatched. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.826Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "066ed7b7-5756-44fa-b524-76567216a62a",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "The body wave pattern is so elegant and feminine. I feel like a queen wearing this. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.942Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "06860b7a-a669-4f2c-bee4-3e790d21f615",
+  "fields": {
+    "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.343Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "06eda94d-4fdc-401e-aa0f-ac1097fd2df4",
+  "fields": {
+    "product": "9b93417f-77d5-497e-a13a-483e1e634eb5",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.893Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "0708ca25-6cf0-4495-9ffe-1f8ab1c37d0f",
   "fields": {
     "product": "45590598-1dcc-478f-ab09-56135dba18b6",
@@ -4888,6 +5318,66 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.954Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "07900ea7-8b81-4d45-92be-5a1954e62d2a",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.146Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "07b5924b-2aa6-4380-9374-f05d2e099b45",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.171Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "07b877d2-6276-46fc-a801-f91e003a0023",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "The body wave pattern is so elegant and feminine. I feel like a queen wearing this.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.037Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "07baecc6-8d67-4dde-9b55-cc207038bbe9",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.296Z"
   }
 },
 {
@@ -4907,6 +5397,66 @@
 },
 {
   "model": "products.review",
+  "pk": "083e83e9-167d-4054-bfdc-bf9ffad79142",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.089Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "09f49576-ec8f-42e9-8bfd-8de83e905209",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "The body wave pattern is so elegant and feminine. I feel like a queen wearing this.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.953Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0a0d08a0-a55a-4379-9993-78a916707af4",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.876Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0adb1a71-28fb-43a3-b952-f798379ab738",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "This curly wig is a game changer. The coils are tight and beautiful.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.791Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "0b3224df-bd4d-44e9-8fae-4dadc45a584a",
   "fields": {
     "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
@@ -4918,6 +5468,111 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.921Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0bb56e0e-44ad-43fe-bcfa-6012514cee06",
+  "fields": {
+    "product": "002f1d77-47e9-45d3-a601-4422625ff3f7",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.137Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0c1c50c6-7f1a-42b7-99bf-38ba6fe289d6",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.070Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0c579c01-919d-4d53-af85-f8a7d0fc9ad7",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.046Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0c841b7d-d921-4ab0-9b19-858aceb60bf7",
+  "fields": {
+    "product": "cfe6e90c-1385-4b16-8e18-a5036409996b",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.188Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0d1b00b7-dec8-4a64-8070-7fcf2946797c",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "I love how bouncy and full these curls are. Great quality hair.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.066Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0d90524e-fb9f-4559-8824-a102cf4f24e8",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.286Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0e3d6fd9-1443-4881-b5ce-13b376d830f9",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.088Z"
   }
 },
 {
@@ -4937,6 +5592,81 @@
 },
 {
   "model": "products.review",
+  "pk": "0f6400fc-7860-4ba8-8cb5-db526257f130",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "This body wave wig is everything I wanted and more. The waves hold their shape perfectly. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.120Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0f6411d1-84e6-4b7a-a853-dd3147223895",
+  "fields": {
+    "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.340Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0f8d78c1-5c00-4016-81a4-d192cc350db0",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "The curls are tight and springy. Holds moisture really well in humid weather.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.803Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "0fd58f63-c3a2-4daf-9542-4463ce60f58d",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.331Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "102f82c7-f9f0-494a-96c6-0c3de82278a9",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.075Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "107feac1-ffef-4614-9e58-59d9bd6606ef",
   "fields": {
     "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
@@ -4948,6 +5678,126 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-21T21:52:54.489Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1156e212-b696-452d-8387-819972ac4c8b",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.123Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1170074e-7267-43e9-8857-c23b37754d9e",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.874Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1197bd8e-d6d6-4e48-9656-4709e6897d58",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "This wig gives me so much volume! The deep waves are absolutely gorgeous. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.871Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "123f44a7-52b3-4e05-b156-791951dd5a64",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.692Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "12ba4830-9de9-4844-a4b4-ec8ae9e1d3f0",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "This body wave wig is everything I wanted and more. The waves hold their shape perfectly. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.715Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "12ed470d-e20e-4982-90f5-a8705a4ba351",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.883Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1304795f-4deb-4dd3-bd4f-c7516c1f2bed",
+  "fields": {
+    "product": "31ac0f2b-ec9c-41d9-9d7e-b9abb02eceb3",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "This wig is worth every penny. The quality is unmatched. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.907Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "130ad8de-dd41-4bf9-94fe-a5f6c29d96d2",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "lindiwe.ndlovu@soiereview.com"
+    ],
+    "reviewer_name": "Lindiwe Ndlovu",
+    "message": "This body wave wig is everything I wanted and more. The waves hold their shape perfectly.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.721Z"
   }
 },
 {
@@ -4967,6 +5817,96 @@
 },
 {
   "model": "products.review",
+  "pk": "13a60923-c523-470a-9207-9845c6888b32",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.708Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "14c61c91-b27c-4cd5-be3e-183967b48022",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.985Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "15713e14-8cb6-42aa-919c-5dac03accbda",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.990Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "15d9f518-9942-4ba1-b13d-fa9c9ecee021",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.111Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "15e39f3c-c944-4bc9-94d9-579e00300cd0",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "The straight texture holds up beautifully even after multiple washes. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.987Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "16232ae9-4289-4971-b943-b23a571532b7",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.252Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "165d12af-3000-4aa2-93b0-7fbba4a33fb7",
   "fields": {
     "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
@@ -4978,6 +5918,21 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-21T21:52:54.477Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "165fd1de-8f79-4ede-8fcb-012edbf0bc8e",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.292Z"
   }
 },
 {
@@ -4997,6 +5952,201 @@
 },
 {
   "model": "products.review",
+  "pk": "184214ee-be5f-4ff0-8caa-7dacdbd37a04",
+  "fields": {
+    "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.311Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "19112c64-9d5f-4c56-934c-e6c17acb6272",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.039Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "19201ac2-333f-4859-a649-0f42ac6c9725",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.730Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "193e3536-c023-4a2a-9a21-3c9ef3162c9a",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "This wig is absolutely beautiful. Will definitely order again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.751Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1959268c-16a8-4697-a609-bcb8d9adc1c5",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "I love how bouncy and full these curls are. Great quality hair. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.288Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "198d7693-ecd6-4f64-9f17-75b294833406",
+  "fields": {
+    "product": "9b93417f-77d5-497e-a13a-483e1e634eb5",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.892Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1a9db975-45c7-4122-bfaf-41d20e7c286f",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "I've washed this wig multiple times and the waves still look brand new. Amazing quality!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.204Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1b2ecc58-5c06-46a4-ad43-8e68fab9ae4f",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.033Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1db9597c-32d5-43a4-b1b8-79cb028cc615",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.336Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1dbe1ca2-22aa-4564-addf-717637e190f5",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "Perfect wave pattern - not too tight, not too loose. Looks incredibly natural.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.977Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1dd7e503-4cb4-4c0e-9d24-6700dee206ec",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "Perfect wave pattern - not too tight, not too loose. Looks incredibly natural. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.096Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1e56d455-e687-4b2f-a863-14091c76274f",
+  "fields": {
+    "product": "9b93417f-77d5-497e-a13a-483e1e634eb5",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.889Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1f17c49e-4a68-4757-8161-4142ee6ebfdb",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "The curls are tight and springy. Holds moisture really well in humid weather.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.805Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "1f1bdfc0-5709-4ec9-833c-5f3bffb4de6c",
   "fields": {
     "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
@@ -5008,6 +6158,156 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.984Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "1fcbb78b-cbf7-4efa-b1fe-693261582e75",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "This wig is absolutely beautiful. Will definitely order again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.085Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "20f3ab8a-ddac-422f-b75c-8c22d87e35f9",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.250Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "210e7902-fe72-4d0c-906d-14cf36367dcc",
+  "fields": {
+    "product": "cfe6e90c-1385-4b16-8e18-a5036409996b",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "This deep wave wig has incredible body and bounce. Worth every penny.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.190Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "216f3fb9-56b8-4bef-99f6-28d4dd6dc7e4",
+  "fields": {
+    "product": "9b93417f-77d5-497e-a13a-483e1e634eb5",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.891Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "21dd5503-a6a3-4379-826e-d7fb3c5f51ae",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.180Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2281d821-eb31-472f-be36-7d38a3ecb372",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.042Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "22a82055-b0a2-4611-a030-f12147054448",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "The curls hold their shape even in humidity. So impressed with this wig.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.917Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "235d46d5-6fd9-4fb4-92dd-8aaa4d47593c",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.817Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2397fd9a-968d-4cce-8f79-64a2f97f6700",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.163Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "24422d06-0c18-471a-be6f-7ccd0ccb29d4",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "The curls hold their shape even in humidity. So impressed with this wig.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.299Z"
   }
 },
 {
@@ -5027,6 +6327,66 @@
 },
 {
   "model": "products.review",
+  "pk": "27289d9c-4fb6-4029-b453-a546d1f5458e",
+  "fields": {
+    "product": "8a9ea2f7-f05e-4500-9b81-ff593ea0baa3",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.684Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "27407221-47be-429e-9bab-48933e75e2a6",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Best deep wave I've ever owned. The definition is consistent throughout.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.869Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2756c736-9e1f-468a-a7cb-42f425fc06c6",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "diana.abiodun@soiereview.com"
+    ],
+    "reviewer_name": "Diana Abiodun",
+    "message": "The body wave pattern is so elegant and feminine. I feel like a queen wearing this.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.105Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "287e22d2-2a4b-4b4b-91fc-7aa2645c8915",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.115Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "28fa1662-5267-46df-8810-d2029655cbac",
   "fields": {
     "product": "8a9ea2f7-f05e-4500-9b81-ff593ea0baa3",
@@ -5038,6 +6398,21 @@
     "rating": 4,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:04.026Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "29d250a2-c837-4e3a-b99a-4cec058f3c7e",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.338Z"
   }
 },
 {
@@ -5057,6 +6432,81 @@
 },
 {
   "model": "products.review",
+  "pk": "2a4d0629-9519-40de-a1e6-505688dea40f",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.972Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2a54d028-f72a-4089-b65d-37cddb022a72",
+  "fields": {
+    "product": "8a9ea2f7-f05e-4500-9b81-ff593ea0baa3",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.686Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2a9f72f8-e14a-494a-bcc2-876052dc8035",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.827Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2bb6696e-871d-4be5-843a-f18801ff4a7f",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.109Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2d661e8d-0a16-4ad8-ae64-a9674558d5d8",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "The straight texture holds up beautifully even after multiple washes. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.267Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "2e1d13fb-cf27-4c72-be5b-8beaefe045aa",
   "fields": {
     "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
@@ -5072,6 +6522,96 @@
 },
 {
   "model": "products.review",
+  "pk": "2e8fb6c8-a320-4808-b22f-869b33ae1c44",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.959Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2ea3494f-919d-4784-8cfb-10ebb742a707",
+  "fields": {
+    "product": "31ac0f2b-ec9c-41d9-9d7e-b9abb02eceb3",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.903Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2ec8f717-5a46-40b2-9953-0744310b1045",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.925Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "2fde08d7-4697-41d5-9ff7-b8e3ad242e37",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "The lace is invisible and the hair is so silky. Best purchase I've made this year. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.269Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "30cf7821-4ed6-4969-ac48-9fcb0a32f994",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "I love how bouncy and full these curls are. Great quality hair.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.289Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "30cfd797-b342-4350-b34c-ca0996827242",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.974Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "31257a83-14b0-455b-8e45-223c960edf6a",
   "fields": {
     "product": "45590598-1dcc-478f-ab09-56135dba18b6",
@@ -5081,6 +6621,36 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.958Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "3150fbb7-3e5e-4565-b223-02d11ec92852",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.950Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "31b76b87-bfc0-4271-80d0-3445e67e78c0",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "The lace is invisible and the hair is so silky. Best purchase I've made this year. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.012Z"
   }
 },
 {
@@ -5100,6 +6670,21 @@
 },
 {
   "model": "products.review",
+  "pk": "34ac358e-9104-4fb3-8cbe-a2a1b65b162e",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.756Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "3525cfb4-bf2f-4461-8df1-e233463608c2",
   "fields": {
     "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
@@ -5111,6 +6696,81 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.941Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "3604c2f6-4dc2-4be9-9be3-3e77238f47eb",
+  "fields": {
+    "product": "002f1d77-47e9-45d3-a601-4422625ff3f7",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.127Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "36688ea0-9c1b-4859-8484-dfad1c04691e",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.747Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "376c456a-cdf1-4d9b-bf45-1f8566e6152b",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.141Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "379abde3-b861-4582-b060-bfd528139f6f",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.172Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "380ab910-bdd1-4947-b69b-37755b6c79f3",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "Absolutely stunning! The waves are consistent from root to tip. Very high quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.118Z"
   }
 },
 {
@@ -5130,6 +6790,21 @@
 },
 {
   "model": "products.review",
+  "pk": "38fe15f6-ff54-4a66-a29a-e2a69068ffb2",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.838Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "39ffd61a-9cbd-4ef8-bf62-31ddd75cc3b0",
   "fields": {
     "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
@@ -5141,6 +6816,111 @@
     "rating": 4,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.930Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "3a1dbe68-5ab0-48a8-868f-cd217d1cde8c",
+  "fields": {
+    "product": "cfe6e90c-1385-4b16-8e18-a5036409996b",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.194Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "3b770cc0-18f2-46ba-93c7-956c99b1470e",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.848Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "3d6ae80a-ad0f-47f4-b7e6-82c1c1df43dc",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.001Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "3d71fd97-dab5-4115-b5f2-e62a1e968c9d",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "The lace is invisible and the hair is so silky. Best purchase I've made this year.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.082Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "3e4eddf3-489b-4add-8448-cc56d383d981",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.879Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "40027b86-5eb5-41f7-a336-01ddab733b2c",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.988Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "4087c841-89ec-413a-b62b-cb69b238fd29",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.320Z"
   }
 },
 {
@@ -5160,6 +6940,171 @@
 },
 {
   "model": "products.review",
+  "pk": "430ca91c-0b8f-42bb-80fc-2fdb1ad0ffd8",
+  "fields": {
+    "product": "002f1d77-47e9-45d3-a601-4422625ff3f7",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.134Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "43d629c0-b659-4384-957e-bf65f1ec97d4",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.153Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "44425338-d11b-4686-90b7-bb3dde5b80b2",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "I'm obsessed with this deep wave wig. It's become my everyday go-to.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.802Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "44d35c8e-04ea-4746-b11c-2fada78d8c8c",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.321Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "44da74b9-0e70-4b41-aa75-e20ddfd9af70",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.034Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "4598d5b4-603c-46b4-a849-58ea687360a5",
+  "fields": {
+    "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.302Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "45a32d2b-5d5a-4058-abdf-928be37941fd",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.857Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "462705f4-09ff-4cbd-b8f7-eee9685900b1",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.697Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "4649680a-aa19-43df-b19f-b52d03cc1aff",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.222Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "46ebae45-0363-478b-b3b7-bac483639661",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.077Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "46fe8120-42c9-466e-baed-d0b9f7fa2673",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "ifeoma.ekwueme@soiereview.com"
+    ],
+    "reviewer_name": "Ifeoma Ekwueme",
+    "message": "The deep waves are so defined and voluminous. Such a beautiful texture!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.797Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "4799551f-457e-4b4f-94af-31d939fab724",
   "fields": {
     "product": "5364ebed-1dcc-4121-995b-3a9a1e91e8e1",
@@ -5171,6 +7116,51 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.999Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "488baf19-6260-4ad7-986c-8c1323e8c79f",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "lindiwe.ndlovu@soiereview.com"
+    ],
+    "reviewer_name": "Lindiwe Ndlovu",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.944Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "4943d543-830e-4014-8ba2-f73b289689b4",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.318Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "49815f5a-604a-46cd-842b-508bfa8dca60",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.027Z"
   }
 },
 {
@@ -5190,6 +7180,36 @@
 },
 {
   "model": "products.review",
+  "pk": "4ba84270-d6dd-4f09-a1f0-fb7f43758503",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.064Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "4cf9910e-8bdf-420d-91a0-b7eb3b2a3286",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "The body wave pattern is so elegant and feminine. I feel like a queen wearing this. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.106Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "4dfad1bf-0f29-4863-b77b-4c6a56c0478b",
   "fields": {
     "product": "8a9ea2f7-f05e-4500-9b81-ff593ea0baa3",
@@ -5201,6 +7221,21 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:04.031Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "4e094757-e274-47de-95b2-1369f535eb43",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.699Z"
   }
 },
 {
@@ -5220,6 +7255,171 @@
 },
 {
   "model": "products.review",
+  "pk": "4e27b74f-cc8b-4d7a-b386-133d1bbf4c4e",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "Best deep wave I've ever owned. The definition is consistent throughout.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.143Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "4ea5163c-d98b-42a2-a130-3312ad1e8395",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.868Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "4f456216-7b27-45cc-be8a-794c1671c707",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.709Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "512601f9-0d0d-46c8-a9f5-8fcbe63f77e2",
+  "fields": {
+    "product": "002f1d77-47e9-45d3-a601-4422625ff3f7",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.131Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "51d47330-5292-40bb-9979-f9e86fd1b0be",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.022Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "534d5eaf-c71f-4c1f-b028-7704270adc36",
+  "fields": {
+    "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.350Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "547d2ace-a945-411b-b905-e04bd0749f4d",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.002Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "54c32a02-a314-4720-babe-d89a1c0c7ed1",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "Finally found a curly wig that actually looks natural! Highly recommend.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.055Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "55688b11-7650-434f-89e2-81f44cdcb761",
+  "fields": {
+    "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "Exceeded my expectations in every way. So happy with this purchase! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.238Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "56336ff8-1e58-4a54-8f99-4e26c43841ea",
+  "fields": {
+    "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.308Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5639ca7b-aa00-485d-8a80-a5cf61760cb4",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.056Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "568f93ac-4494-4013-8b0f-c9e324c27657",
   "fields": {
     "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
@@ -5231,6 +7431,36 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.964Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5734613f-f26c-4e8d-9952-3bedd1db9b2c",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.104Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "57e6aee6-b08e-4fac-ac80-ffbb3dfd611d",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.086Z"
   }
 },
 {
@@ -5250,6 +7480,321 @@
 },
 {
   "model": "products.review",
+  "pk": "5b92b636-c5a6-4e91-a0a7-2412d5187d84",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.935Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5bdd5797-209c-4f86-8a65-2f252b510147",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.054Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5beda854-5322-4a05-8656-ac1da155bcf8",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.108Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5c506b32-cffa-41e6-9931-44fe8dce3aab",
+  "fields": {
+    "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.236Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5cb4f828-60e2-4c22-8f71-cc285ca3e7a7",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.174Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5d133a17-ca96-4100-af00-e225994e1e38",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.200Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5dfab87b-e082-41e1-b943-660cad1252b7",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.851Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "5ecc6861-bec0-4662-b94d-d518bcde9283",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.158Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "60007aab-5313-4ed6-835d-30f6b9cf806b",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.961Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6004c3c2-a1be-4fc8-93c5-1da0fbee5bd0",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.999Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "606d605d-43e3-4ed9-b133-b29d24d583c7",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "The body wave pattern is so elegant and feminine. I feel like a queen wearing this.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.740Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "61027094-94fb-4423-b6ee-97f5b7b5f9dd",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "Perfect wave pattern - not too tight, not too loose. Looks incredibly natural.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.223Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6186aadc-66d4-4057-8524-d378e73bd0ef",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "The curls hold their shape even in humidity. So impressed with this wig. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.920Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6262f8f7-b4fb-4f36-b5a0-5b1694265495",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.830Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "62ec3636-ab78-4b45-a0a9-66e165bd0495",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.774Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "63040133-734d-4384-8dd7-287e0408b01a",
+  "fields": {
+    "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.274Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6511f22e-382e-475c-9a78-93dea919bb28",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.182Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "670175d7-61a2-408e-98e3-964fac420e2d",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.030Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "68f547c1-a65f-4cb5-913a-a1451620cdca",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.997Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6954deac-b883-4a02-ad7c-d3625eba744a",
+  "fields": {
+    "product": "31ac0f2b-ec9c-41d9-9d7e-b9abb02eceb3",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.906Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "698b5237-a770-4b2b-89cb-5eac5f878cae",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "I've washed this wig multiple times and the waves still look brand new. Amazing quality! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.734Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "69d4ab13-514e-431e-8d7c-fb5c1b585cbc",
   "fields": {
     "product": "45590598-1dcc-478f-ab09-56135dba18b6",
@@ -5261,6 +7806,36 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.961Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6a7e4a4f-07c5-4fab-9d86-e642998b534c",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.969Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6adc697a-360a-49f3-91f9-f922a16af0d0",
+  "fields": {
+    "product": "cfe6e90c-1385-4b16-8e18-a5036409996b",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.191Z"
   }
 },
 {
@@ -5280,6 +7855,81 @@
 },
 {
   "model": "products.review",
+  "pk": "6aee2174-5c29-47fd-8d4f-bcaf39c15187",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.178Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6b01ab0f-3ff5-444d-adf0-0a7ca8b1fcd3",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.823Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6b905a4a-e142-4c7c-82d0-e05f6fc2eeb9",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "Perfect curl pattern - not too tight, not too loose. Very natural looking.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.931Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6e0b9dba-6b63-457e-b4dd-b827540b8556",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.327Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "6e7baa08-eceb-4470-99f3-322c9d990ea9",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.248Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "6ff2846e-7cf1-4a69-8c61-1cbe4a2391c5",
   "fields": {
     "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
@@ -5291,6 +7941,21 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.982Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "703366b1-02ee-4440-b073-ca88f0101bcb",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.719Z"
   }
 },
 {
@@ -5310,6 +7975,81 @@
 },
 {
   "model": "products.review",
+  "pk": "717b05ab-40d9-4536-917c-e671ee4e0b3e",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.241Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "71d2779f-5344-4132-92c3-2d490b0e4b18",
+  "fields": {
+    "product": "cfe6e90c-1385-4b16-8e18-a5036409996b",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "This wig gives me so much volume! The deep waves are absolutely gorgeous. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.186Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7227599a-b7b0-472e-8141-c1ad4a83c9aa",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.017Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7283c7de-5639-4743-9828-70dae18a0af1",
+  "fields": {
+    "product": "9b93417f-77d5-497e-a13a-483e1e634eb5",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.899Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "72cf4009-ad11-47bb-ad9e-d34c30f25f0f",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "I love how bouncy and full these curls are. Great quality hair.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.278Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "758600a7-3716-4b98-95a0-0096ba04ad41",
   "fields": {
     "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
@@ -5321,6 +8061,261 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.928Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "75b9e483-fcd4-4a79-8488-6eb1872027af",
+  "fields": {
+    "product": "002f1d77-47e9-45d3-a601-4422625ff3f7",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.132Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7633a3c3-ffa6-4aef-a65d-8a584c442282",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.023Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "77176643-ca4d-4101-94c0-cbbe324c4ca4",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.700Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "774dbe7c-c2cc-42cd-bc42-717ccc94ff95",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "I've received so many compliments since wearing this wig. Love it! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.297Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "77842928-337d-463f-8271-39e536e9ec4c",
+  "fields": {
+    "product": "8a9ea2f7-f05e-4500-9b81-ff593ea0baa3",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "I've tried many straight wigs but this one is by far the best. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.689Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "77dbffd7-2fce-4f25-aafe-fb0f00bbe301",
+  "fields": {
+    "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "I've received so many compliments since wearing this wig. Love it! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.306Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "77eec2bd-6432-45c5-9cdc-07d37643a257",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.244Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "78dad966-d84c-4eb8-93f2-567b4b65cf68",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "This wig is absolutely beautiful. Will definitely order again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.808Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7a6d51a6-5eb9-4e83-8245-47726e0feb6c",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.741Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7af350cf-61e0-49d1-83f8-08f3a5a74839",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.866Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7b3a9400-d0ba-4d08-a476-5edb0671bdbb",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.266Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7bcdfa01-6b61-4d97-8c4c-3aaf1b000aae",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.722Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7cbde46c-2be8-4ee0-ab6c-593722a05536",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.832Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7d0b1710-87c2-415e-b416-ee2904cffe89",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.206Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7d18862f-e9db-4af3-836f-afe5ce913137",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.093Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7ec88a32-acb9-4481-a92a-ac0eb262d5bc",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "This deep wave wig has incredible body and bounce. Worth every penny.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.144Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "7edcb989-5361-4d31-a1fb-2074b73c5c76",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.293Z"
   }
 },
 {
@@ -5355,6 +8350,51 @@
 },
 {
   "model": "products.review",
+  "pk": "809e7820-7c07-45dd-b8eb-af51abfdfbb9",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.728Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "80bb7fcd-5ef5-4449-8a8f-ddc53cf36b46",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.732Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "80c76ea8-c9a9-4c36-9f7e-c536d34bfc98",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.799Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "8127e6ca-12e9-4cc2-9617-a6af015f02fe",
   "fields": {
     "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
@@ -5366,6 +8406,36 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.925Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "816ebf5f-7569-49ed-83b1-8f5e9aa6c1f4",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "lindiwe.ndlovu@soiereview.com"
+    ],
+    "reviewer_name": "Lindiwe Ndlovu",
+    "message": "The curls are tight and springy. Holds moisture really well in humid weather.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.325Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "81890d72-b8eb-434a-aac9-c333beeae4f3",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.102Z"
   }
 },
 {
@@ -5385,6 +8455,36 @@
 },
 {
   "model": "products.review",
+  "pk": "828e54f7-c630-4384-953b-3a7a106c5677",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.007Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "83506e00-c303-4191-a02c-eba70eaaf45d",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.852Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "83fdeaa4-953f-4713-a00d-3f077eeab302",
   "fields": {
     "product": "5364ebed-1dcc-4121-995b-3a9a1e91e8e1",
@@ -5396,6 +8496,261 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:04.003Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "855ced7f-8bb8-46e5-a9ea-2e41fe87b74c",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.948Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "866a7235-b202-4e68-abdb-ebe2c7c88421",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.824Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "88666ce1-717d-4bc1-ad1b-ee794d82eaef",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "Best deep wave I've ever owned. The definition is consistent throughout.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.159Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "888651c6-28f3-4b6e-b016-2757d109e503",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.769Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "88b20340-b361-429e-92aa-af5a80a1b382",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.919Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8ac8333d-9154-45a6-8b36-5058ddcb3ef5",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "diana.abiodun@soiereview.com"
+    ],
+    "reviewer_name": "Diana Abiodun",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.330Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8be4033c-5b7a-47b0-a5bf-65951c41beac",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.242Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8c16cbb2-b95b-4446-b2a9-885f07730a35",
+  "fields": {
+    "product": "31ac0f2b-ec9c-41d9-9d7e-b9abb02eceb3",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "I've tried many straight wigs but this one is by far the best. The quality is unmatched.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.909Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8c6b44e5-81ad-4ff0-b598-594236f507d7",
+  "fields": {
+    "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.312Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8d3f7208-1229-4fba-b132-6ae563fdea82",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.020Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8d4faa9d-41f2-4a79-b75a-68665e41cef5",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "This wig is absolutely beautiful. Will definitely order again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.156Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8d8b6db0-a6d6-4a0c-905f-15fea9c026a1",
+  "fields": {
+    "product": "cfe6e90c-1385-4b16-8e18-a5036409996b",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "The deep waves are so defined and voluminous. Such a beautiful texture!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.185Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8daff2b0-b339-4996-9e6f-05b4d6387f5c",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.970Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8df8144d-6fef-4740-99b2-6a7c34048dc2",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.258Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8eb7f5e8-081f-48fa-8a12-c5fdcbd7f197",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.117Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8fd43dcc-e1a6-43c8-ae2d-733591042b97",
+  "fields": {
+    "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "I've received so many compliments since wearing this wig. Love it! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.305Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "8ff3bf6a-0de7-4b75-9418-e888795e716d",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.725Z"
   }
 },
 {
@@ -5415,6 +8770,171 @@
 },
 {
   "model": "products.review",
+  "pk": "912abecb-d841-449b-9454-89582819d4a6",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.922Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "913643e6-f273-40fa-bfab-8b680cd9ae2c",
+  "fields": {
+    "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "This kinky curly wig is stunning. The coils are tight and defined.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.232Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "92c6fdc5-01b2-470e-84ff-84a036aef9fe",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "This wig is absolutely beautiful. Will definitely order again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.041Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "92ca09e1-6396-4a66-8d12-a0dd166d7980",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "Perfect curl pattern - not too tight, not too loose. Very natural looking.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.786Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "931be691-dfa9-4c9e-9579-ee4537f9da2f",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "This curly wig is a game changer. The coils are tight and beautiful. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.291Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "93e8fe80-8e0e-4567-b987-203b57ab4af8",
+  "fields": {
+    "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "This straight wig exceeded my expectations. The hair is incredibly soft and looks so natural.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.342Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "94100a21-30d8-4453-a90f-25ba141a1ae7",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.693Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "957a1bf9-b237-4c37-9fc6-64e8a633188a",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.785Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "963b99ac-56c4-4360-94d7-def76f8a6453",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.820Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "966f0601-4eaf-449b-a7dc-f3858e1e2c56",
+  "fields": {
+    "product": "9b93417f-77d5-497e-a13a-483e1e634eb5",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "The straight texture holds up beautifully even after multiple washes. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.897Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "96e5d1bb-08db-4fef-bfcd-53fbda7ca98a",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "This straight wig exceeded my expectations. The hair is incredibly soft and looks so natural.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.262Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "96efc176-2301-4963-850c-b02bc27de894",
   "fields": {
     "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
@@ -5426,6 +8946,171 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.975Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "97f7f7ff-ddbb-472d-b030-ad5cbd998edb",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.257Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9820d21e-1644-4c74-a8d0-520f3de55595",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.201Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "984305ff-e252-4978-9176-38eb9688db7f",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "I've tried many straight wigs but this one is by far the best. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.855Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9954b6c6-a33c-4eea-8afc-065cad4ff189",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "ifeoma.ekwueme@soiereview.com"
+    ],
+    "reviewer_name": "Ifeoma Ekwueme",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.019Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "99668aa8-f9dd-4572-a537-3f80018315c9",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.209Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "99ec2f3f-278f-42de-a524-eae4706ebe1e",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "Exceeded my expectations in every way. So happy with this purchase! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.323Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9a0a1bdb-ff8b-4ea0-a631-56bc67ca96ca",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.965Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9a5926c1-854c-4741-bd8f-c35408694bf4",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.253Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9a7fe9a8-1b8e-480f-b1c0-4c5a03e72c38",
+  "fields": {
+    "product": "002f1d77-47e9-45d3-a601-4422625ff3f7",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.129Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9b1f9219-98a0-4742-972a-2ebc1b720854",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.746Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9bc77bca-61db-4679-a8ae-01c1f472e52c",
+  "fields": {
+    "product": "31ac0f2b-ec9c-41d9-9d7e-b9abb02eceb3",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.914Z"
   }
 },
 {
@@ -5445,6 +9130,141 @@
 },
 {
   "model": "products.review",
+  "pk": "9cd043ef-e6e7-424c-a7cd-7af911d3abf2",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.754Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9e086841-338d-48ab-afbf-164a5b103a9d",
+  "fields": {
+    "product": "cfe6e90c-1385-4b16-8e18-a5036409996b",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.196Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9e7bec4b-8085-4bc1-ac07-478727ab4e05",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "I've washed this wig multiple times and the waves still look brand new. Amazing quality!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.723Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9ebb49b9-ab70-40e1-b882-9013f4083a5d",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.165Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9f0b749e-2483-4f04-83a6-a8570aa9451d",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "Exceeded my expectations in every way. So happy with this purchase! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.068Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "9f6870b5-8b56-4a4a-a398-31a0d44a0e21",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "I've washed this wig multiple times and the waves still look brand new. Amazing quality!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.963Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a0160469-81f6-466f-8b1a-4203f3869a8e",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.711Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a021f59f-1518-476e-9267-f93316a8517e",
+  "fields": {
+    "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.347Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a0a0e5d4-e606-4041-a809-daf77fbf4984",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.775Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "a122f25e-9012-49e4-bb5f-6be0b267c5c9",
   "fields": {
     "product": "5364ebed-1dcc-4121-995b-3a9a1e91e8e1",
@@ -5456,6 +9276,171 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:04.005Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a2910ca6-7c4f-44ad-a2ff-b2822c122159",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "Exceeded my expectations in every way. So happy with this purchase! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.956Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a2eafeb6-da47-4601-9aef-2e94581e85a4",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "The body wave pattern is so elegant and feminine. I feel like a queen wearing this.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.738Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a311d81d-0ea0-4fde-b74a-20e3402a7915",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.765Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a3f5155a-8ae6-4b0a-9451-561308b5fa12",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "lindiwe.ndlovu@soiereview.com"
+    ],
+    "reviewer_name": "Lindiwe Ndlovu",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.749Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a484d3f7-c6b6-4708-ad0a-3ed8ca570adc",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.009Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a528221c-14a8-419d-97b3-cc5810bf19e8",
+  "fields": {
+    "product": "31ac0f2b-ec9c-41d9-9d7e-b9abb02eceb3",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "Exceeded my expectations in every way. So happy with this purchase! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.910Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a54a9774-de8c-4a93-b1bc-f193f3c78149",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "This body wave wig is everything I wanted and more. The waves hold their shape perfectly.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.036Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a7753d71-ddb3-4cd2-b520-d8ac47d9fd5b",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.005Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a79e5984-1280-4725-9179-168125c55f3d",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "This wig is absolutely beautiful. Will definitely order again. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.794Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a7cfb9ff-8cea-460a-b0ec-b6091b8e716b",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "diana.abiodun@soiereview.com"
+    ],
+    "reviewer_name": "Diana Abiodun",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.860Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "a8fa7ad7-e550-40ef-8ab6-b14f82c8c015",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.211Z"
   }
 },
 {
@@ -5475,6 +9460,66 @@
 },
 {
   "model": "products.review",
+  "pk": "a9e772d5-da64-4b13-9c21-341d32d86dda",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.843Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ac5f7215-e8c0-4a05-8111-ace70a2c7c45",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.283Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ad0d57a4-9327-4835-bc85-f77bc164cf21",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "The curls hold their shape even in humidity. So impressed with this wig.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.285Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ae95518b-dd3e-430a-85da-449b200b6965",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.982Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "af976808-e3b5-4fbc-8648-10c42f0999d9",
   "fields": {
     "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
@@ -5486,6 +9531,66 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.997Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "afec5731-f528-4292-b22d-fb714dd97d3e",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.161Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "affd2ce5-cac2-4d54-8547-6bc718cc0f03",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.995Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b1ee69f2-58ae-47cd-a119-3798bb51c316",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.815Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b329d526-4f5a-427f-9cc1-4ea3e89c71f6",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "I've received so many compliments since wearing this wig. Love it! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.316Z"
   }
 },
 {
@@ -5520,6 +9625,141 @@
 },
 {
   "model": "products.review",
+  "pk": "b3b7d58b-5563-4fe3-9225-0bf7ee43e98f",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "This wig is worth every penny. The quality is unmatched. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.052Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b4e17cdf-7c86-4c4f-8184-10273622a423",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.100Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b4f5f262-3b1d-4c74-b9ff-21de58d1ca41",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.083Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b5cc0a9c-b8fe-4e85-9f49-8a39c437b20b",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.809Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b7a12448-3e89-47b9-bebf-25e5cefbcb26",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "lindiwe.ndlovu@soiereview.com"
+    ],
+    "reviewer_name": "Lindiwe Ndlovu",
+    "message": "The curls are tight and springy. Holds moisture really well in humid weather.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.872Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b7be7f2c-a75e-4945-9b47-147a4803d9f9",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.840Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b7f12b1d-c6f9-4b72-901e-5acb9b450600",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "I've tried many straight wigs but this one is by far the best. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.168Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "b89ee79c-4d71-4163-84af-bbd7d21b1706",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "The lace is invisible and the hair is so silky. Best purchase I've made this year.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.841Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ba15f151-6dd3-47db-b386-e9f37383fcb0",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.929Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "ba5e4215-9382-4338-a4c6-46c24ad7dbab",
   "fields": {
     "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
@@ -5535,6 +9775,96 @@
 },
 {
   "model": "products.review",
+  "pk": "bbcc023d-1346-4571-ad8c-197c62046a46",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "ifeoma.ekwueme@soiereview.com"
+    ],
+    "reviewer_name": "Ifeoma Ekwueme",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.213Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "bbd86505-a9e0-4f35-96d5-4b611bb2df07",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "Exceeded my expectations in every way. So happy with this purchase! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.757Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "bcfc8f66-32f0-428e-b7c8-77f672758c58",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.113Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "bd0e6b1b-818d-40d1-bc65-1834b9f63c53",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "rukayat.bello@soiereview.com"
+    ],
+    "reviewer_name": "Rukayat Bello",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.255Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "bd3089fc-6d31-488b-aff4-c6267678574a",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.706Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "bdd1d942-bea4-4a5e-902e-1c07cb0c95aa",
+  "fields": {
+    "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.351Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "be0af2ed-668b-4f32-bdf5-15b68cf6a828",
   "fields": {
     "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
@@ -5546,6 +9876,66 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.986Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "bea39de9-085d-4651-aa18-f9dcf802927e",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.777Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c08d9c31-3dcb-49e5-8949-eab949a4c148",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "The deep waves are so defined and voluminous. Such a beautiful texture!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.148Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c3561e03-133e-47e2-afbc-ba0b1562c7d2",
+  "fields": {
+    "product": "4d830bb4-5790-4e21-8840-0814b84842d3",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.281Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c45a3724-9cf1-450f-93f5-da88bd1c06c9",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "This straight wig exceeded my expectations. The hair is incredibly soft and looks so natural.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.260Z"
   }
 },
 {
@@ -5593,6 +9983,66 @@
 },
 {
   "model": "products.review",
+  "pk": "c5966d3d-e89e-4f29-83d3-9e365757516a",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "diana.abiodun@soiereview.com"
+    ],
+    "reviewer_name": "Diana Abiodun",
+    "message": "This wig is worth every penny. The quality is unmatched. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.736Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c62c0ce2-983c-4dbe-9d9e-8a627145a1ff",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.835Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c681ac49-17ac-4c5a-9050-3c6a6cf673ae",
+  "fields": {
+    "product": "31ac0f2b-ec9c-41d9-9d7e-b9abb02eceb3",
+    "user": [
+      "diana.abiodun@soiereview.com"
+    ],
+    "reviewer_name": "Diana Abiodun",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.904Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c6b6ddac-72ce-430c-8143-34fa2322c8e5",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "The body wave pattern is so elegant and feminine. I feel like a queen wearing this.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.958Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "c714f454-04b6-42d8-8dfd-8bc86ab47cf4",
   "fields": {
     "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
@@ -5604,6 +10054,36 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-21T21:52:54.474Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c86ca989-aeb3-41cd-9a38-e00557b2b37f",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "The straight texture holds up beautifully even after multiple washes. Highly recommend!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.821Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c8b64b7c-ae93-49fb-b3bf-9ddde1906ba7",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.760Z"
   }
 },
 {
@@ -5623,6 +10103,246 @@
 },
 {
   "model": "products.review",
+  "pk": "c94dbfaf-4f65-4932-a404-9f2a809a97c1",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.079Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "c9b68052-f540-4f41-b701-8dde30e18cbc",
+  "fields": {
+    "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "I've washed this wig multiple times and the waves still look brand new. Amazing quality!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.275Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ca14583c-86b1-426c-898f-62534ae43bb8",
+  "fields": {
+    "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "The body waves are so bouncy and natural looking. I get compliments everywhere I go.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.272Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "cbc501ce-af1f-4386-870f-aa7bebebd833",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.062Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "cc4ca18f-38a5-47b0-bb64-52d8bfde1c60",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "This body wave wig is everything I wanted and more. The waves hold their shape perfectly. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.121Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "cd3fdd91-0655-4dd2-97ef-9f7a68ec745e",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "lindiwe.ndlovu@soiereview.com"
+    ],
+    "reviewer_name": "Lindiwe Ndlovu",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.781Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "cd4874be-6b81-439a-b389-773c0f171017",
+  "fields": {
+    "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.309Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ced7058b-64b9-432d-b2a7-f5fe5b600894",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.772Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "cf170970-6d64-4888-80d8-06629ec07504",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.788Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "cf4a2a61-c8bd-4c59-a9b0-03379e2e40ec",
+  "fields": {
+    "product": "e59c0c02-5b4c-4fb9-afdf-55dea1f43f5e",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.303Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "cff999d4-d59a-4686-9ef0-26d3e1df914c",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "lindiwe.ndlovu@soiereview.com"
+    ],
+    "reviewer_name": "Lindiwe Ndlovu",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.333Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d0244dbd-3edd-4bf3-9106-b8df43a9b8b6",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "chiamaka.okafor@soiereview.com"
+    ],
+    "reviewer_name": "Chiamaka Okafor",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.264Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d1fe22db-cf9f-4289-9d21-cb8da89d1adc",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.993Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d21bb3cc-ce9f-4be1-be8d-be982c8856b1",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.215Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d278bde3-dc94-4596-9e66-93cc1afb2ef5",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.941Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d2ac16dd-06c1-415e-a4a4-af83ad0ce81e",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.124Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "d2ba3001-9b0d-4eef-b7e6-656aab57dbbb",
   "fields": {
     "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
@@ -5634,6 +10354,66 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.988Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d320fcb1-8449-43bf-af5a-c00dc11f858d",
+  "fields": {
+    "product": "9b93417f-77d5-497e-a13a-483e1e634eb5",
+    "user": [
+      "diana.abiodun@soiereview.com"
+    ],
+    "reviewer_name": "Diana Abiodun",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.888Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d323e670-8765-4e22-a9e1-81c398f4f7fc",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.858Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d34f380d-be26-43fd-8469-caf8b9b1a75a",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.695Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d3b183a9-b1a2-426d-b6a6-6996d610ff32",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.004Z"
   }
 },
 {
@@ -5653,6 +10433,21 @@
 },
 {
   "model": "products.review",
+  "pk": "d50558e0-4e6d-4a90-95db-e991af2e8dfd",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.753Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "d65b0a4d-3763-44d0-8fb4-c6d9eda9ea34",
   "fields": {
     "product": "45590598-1dcc-478f-ab09-56135dba18b6",
@@ -5662,6 +10457,21 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.948Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d7632955-fdf9-406c-9659-d620b70a5914",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.926Z"
   }
 },
 {
@@ -5681,6 +10491,171 @@
 },
 {
   "model": "products.review",
+  "pk": "d86656f0-9098-4d0c-86fb-09266b540994",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.762Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d8e170f5-de97-478d-81e5-0b871626fabf",
+  "fields": {
+    "product": "cfe6e90c-1385-4b16-8e18-a5036409996b",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.193Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d98c4f5f-4515-40be-a2e5-04e2f03fb32c",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.016Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "d9c498dc-d367-4fc5-9ea4-85de17e71994",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.703Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "db46637a-d861-4ac8-aa1c-19ceb167242d",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.080Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "db5c94d7-8d6b-4c9f-89cd-22848bf7ed58",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "This wig is worth every penny. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.806Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "dbb01e2b-41af-47ab-bd37-f510787f41a3",
+  "fields": {
+    "product": "2b9ca28e-c7d3-4659-a868-332d181e7649",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.800Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "dbe74d06-1276-4832-9743-39c1d1d4d6d5",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "amina.ibrahim@soiereview.com"
+    ],
+    "reviewer_name": "Amina Ibrahim",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.779Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "dc059189-0378-4dfc-8ee8-c4e63a75ba4b",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.220Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "dcbaa13a-6308-453e-a66c-4e78de864b90",
+  "fields": {
+    "product": "42026f8d-a22e-4bbb-9f39-c8d9305f82b2",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "The wig arrived perfectly and looks even better than the photos. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.098Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "dd105941-77cb-4e69-9df6-6c4675773df3",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "This wig gives me so much volume! The deep waves are absolutely gorgeous.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.334Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "dd2e5f17-db47-4dc9-916e-118754f26888",
   "fields": {
     "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
@@ -5692,6 +10667,51 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.933Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "de641d94-c3ee-43cb-9a36-52d01be4c310",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.203Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "df196e5b-6432-4fbb-b408-334f430b0242",
+  "fields": {
+    "product": "9b93417f-77d5-497e-a13a-483e1e634eb5",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.895Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "df3ec8ce-4ba9-4ff7-bb42-2b9c9f8aad1f",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.014Z"
   }
 },
 {
@@ -5711,6 +10731,291 @@
 },
 {
   "model": "products.review",
+  "pk": "e1ab3a2b-d3bd-4256-bb93-9f6e964ba7bd",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "The curls are so defined and springy. Looks just like my natural hair!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.792Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e2e289cb-ef54-419f-9106-744f49bcc8c0",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.759Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e3337eab-30e6-4927-9897-d03a96d88246",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.885Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e3380a68-7dac-406c-a071-cdaad6741d13",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "I've washed this wig multiple times and the waves still look brand new. Amazing quality! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.735Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e3a0a3b1-5f40-47a1-9c54-00615c22e286",
+  "fields": {
+    "product": "43cda292-c736-4986-b766-f5322b553a00",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "The lace is invisible and the hair is so silky. Best purchase I've made this year.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.091Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e3ee51e4-befe-43d5-92dc-4d67581ae25b",
+  "fields": {
+    "product": "92aff21a-d1e1-4b70-8d8a-c87c7c860f6e",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.783Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e3f2652d-8234-406d-92c7-a2052547422a",
+  "fields": {
+    "product": "8a9ea2f7-f05e-4500-9b81-ff593ea0baa3",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.681Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e43f439f-8399-45f6-ac17-213918434c8d",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.702Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e4eaefe5-9686-437c-b681-a855d1a87c51",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "Absolutely stunning! The waves are consistent from root to tip. Very high quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.967Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e52b36c4-4aa1-44ed-ac79-cbe20164bc10",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.980Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e5300f35-3bf4-4576-9887-a8301731ed3d",
+  "fields": {
+    "product": "8a9ea2f7-f05e-4500-9b81-ff593ea0baa3",
+    "user": [
+      "adaeze.nnaji@soiereview.com"
+    ],
+    "reviewer_name": "Adaeze Nnaji",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.670Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e6318941-7ed6-477f-b291-867f8d441393",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "The density is perfect - full but not heavy. Very comfortable to wear.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.155Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e69e3761-99e9-454b-bfe4-c1e2db4d1af2",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.845Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e70159c5-8882-4d84-8172-2e8996a88eec",
+  "fields": {
+    "product": "47cb08f8-d0fb-46a7-be89-cbb1b07126af",
+    "user": [
+      "tendai.moyo@soiereview.com"
+    ],
+    "reviewer_name": "Tendai Moyo",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.705Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e842304f-6051-4c27-a38c-4e6c79743e51",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "diana.abiodun@soiereview.com"
+    ],
+    "reviewer_name": "Diana Abiodun",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.984Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e8588f67-adad-405a-9fef-89f318dfc3a4",
+  "fields": {
+    "product": "ac9b84e6-80c2-4bb0-94a6-74927c07e40c",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "Highly recommend SOIE! Customer for life after this purchase. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.991Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e88be267-21ae-4361-9ad3-ab1af1aab388",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "lebo.mokoena@soiereview.com"
+    ],
+    "reviewer_name": "Lebo Mokoena",
+    "message": "This wig is absolutely beautiful. Will definitely order again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.767Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e90d51e1-0d5f-4190-8b52-e7cec4ef2648",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.152Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "e96098af-4446-4a90-9f1f-7a520d0a732b",
+  "fields": {
+    "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.230Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "e9942abe-5a8b-4527-a20c-5549198e0588",
   "fields": {
     "product": "a6a2705e-f668-4b09-857e-580d6d0ff6eb",
@@ -5720,6 +11025,126 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.938Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ea1031aa-13af-49e1-b4a8-3e7ca4c29c6a",
+  "fields": {
+    "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
+    "user": [
+      "kemi.adebayo@soiereview.com"
+    ],
+    "reviewer_name": "Kemi Adebayo",
+    "message": "Amazing quality for the price. SOIE has exceeded all my expectations.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.235Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "eb28cbf2-a642-4e59-af46-d4b220b8f69e",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "ifeoma.ekwueme@soiereview.com"
+    ],
+    "reviewer_name": "Ifeoma Ekwueme",
+    "message": "The curls hold their shape even in humidity. So impressed with this wig.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.936Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "eb369825-4fa4-4b5d-bb7b-5cd1e148cc53",
+  "fields": {
+    "product": "4a97f50a-4cfd-4b7e-8dd8-4db654f9cfa8",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.768Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ecab0dd3-ac3d-43f9-97e3-dc6146eece80",
+  "fields": {
+    "product": "3dc08826-9031-4bfa-abad-37f407178593",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.324Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "edb54e03-06b6-4827-b5b6-1a91b3121ffe",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "I've washed this wig multiple times and the waves still look brand new. Amazing quality!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.743Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "edc7de3c-4728-4364-8cdc-0886f9610315",
+  "fields": {
+    "product": "707b5a6a-8835-4c23-90ec-dfb5d9dd0771",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "This straight wig exceeded my expectations. The hair is incredibly soft and looks so natural.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.246Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ef636d58-0e77-4244-882a-716f4ca985ac",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "miriam.kimani@soiereview.com"
+    ],
+    "reviewer_name": "Miriam Kimani",
+    "message": "I've bought from several brands and SOIE is by far the best quality.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.047Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f190ae98-adce-4945-a8c3-14bd83c8c9eb",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.847Z"
   }
 },
 {
@@ -5739,6 +11164,231 @@
 },
 {
   "model": "products.review",
+  "pk": "f25ef189-0597-4f38-91a8-c3cb20b17c48",
+  "fields": {
+    "product": "34d84a6b-36f2-4440-857e-85e48505d8ee",
+    "user": [
+      "sade.oluwole@soiereview.com"
+    ],
+    "reviewer_name": "Sade Oluwole",
+    "message": "The wig arrived perfectly and looks even better than the photos.",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.975Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f269e07f-8fb0-4472-b3ad-f98ba8f68d7b",
+  "fields": {
+    "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "Great quality hair. Very soft and natural looking. Highly recommend! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.233Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f2de867d-8664-42e9-b04c-edee88a2c9c4",
+  "fields": {
+    "product": "002f1d77-47e9-45d3-a601-4422625ff3f7",
+    "user": [
+      "rachel.okonjo@soiereview.com"
+    ],
+    "reviewer_name": "Rachel Okonjo",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.135Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f4af5fb9-e5ac-4a0d-9350-2db77da14149",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "priscilla.opoku@soiereview.com"
+    ],
+    "reviewer_name": "Priscilla Opoku",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.875Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f52afd54-40ec-4fea-8b4f-c522d3f4d3b4",
+  "fields": {
+    "product": "bcbab8e1-133d-41c4-81ae-0b4969779dc3",
+    "user": [
+      "yetunde.balogun@soiereview.com"
+    ],
+    "reviewer_name": "Yetunde Balogun",
+    "message": "Perfect for everyday wear. Easy to style and maintain. Will definitely buy again.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.345Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f568c3f7-4c86-4f3c-8c06-372fb750ef9c",
+  "fields": {
+    "product": "15cf2ab8-96b2-4f18-9440-33a37f00abc6",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "This wig gives me so much volume! The deep waves are absolutely gorgeous.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.882Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f569260f-be36-434e-9869-02bc71ca06b1",
+  "fields": {
+    "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
+    "user": [
+      "efua.boateng@soiereview.com"
+    ],
+    "reviewer_name": "Efua Boateng",
+    "message": "The silky straight texture is absolutely perfect. No tangling, no shedding, just beautiful flowy hair. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.176Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f5ed606e-adf0-47a8-81e2-057f7fc0cd95",
+  "fields": {
+    "product": "1aa23494-a131-4181-85f9-9c8ba341e0ee",
+    "user": [
+      "nonhlanhla.dlamini@soiereview.com"
+    ],
+    "reviewer_name": "Nonhlanhla Dlamini",
+    "message": "I've bought from several brands and SOIE is by far the best quality. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.952Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f5fb74b6-b45d-4d96-a462-19fa1326abbf",
+  "fields": {
+    "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Absolutely love this wig! The texture is so authentic and natural.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.229Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f640aabb-dd83-4258-b363-64888f121294",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "ama.asante@soiereview.com"
+    ],
+    "reviewer_name": "Ama Asante",
+    "message": "I've received so many compliments since wearing this wig. Love it! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.726Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f73e0082-ed98-4880-9e3d-6641876aecab",
+  "fields": {
+    "product": "e394df5f-846f-48dd-a8cf-b3ddc35e6d5f",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "I've received so many compliments since wearing this wig. Love it!",
+    "rating": 4,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.150Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f74c0ea0-b947-4dbc-b466-1ad5ca53980d",
+  "fields": {
+    "product": "6b959e4d-a448-4cbc-9b9c-66beae6417b8",
+    "user": [
+      "patience.asare@soiereview.com"
+    ],
+    "reviewer_name": "Patience Asare",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.044Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f7a83899-9a81-4bfe-86a5-45f42420ab63",
+  "fields": {
+    "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "This is the most natural looking wig I've ever owned. 10/10! Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.226Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f7e01402-795f-4b84-b703-c51e6718153d",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "thandi.nkosi@soiereview.com"
+    ],
+    "reviewer_name": "Thandi Nkosi",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.072Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f80314be-1f06-4547-98c9-22b207f0d29e",
+  "fields": {
+    "product": "4fb94f7c-6050-44a6-b7f5-9d4b0c7e9b69",
+    "user": [
+      "nomsa.mahlangu@soiereview.com"
+    ],
+    "reviewer_name": "Nomsa Mahlangu",
+    "message": "The hair is so soft and manageable. No tangling or excessive shedding. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.218Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "f867012f-ac71-4835-877a-3ca6a9a3065a",
   "fields": {
     "product": "9bea39c2-d6d7-428c-88e4-e24c9d5c282f",
@@ -5754,6 +11404,126 @@
 },
 {
   "model": "products.review",
+  "pk": "f8ae39a9-26a4-4f42-99e0-710201004fb3",
+  "fields": {
+    "product": "a5527449-e16e-40a4-8209-c9f5221d0570",
+    "user": [
+      "taiwo.adeyemi@soiereview.com"
+    ],
+    "reviewer_name": "Taiwo Adeyemi",
+    "message": "The body waves are so bouncy and natural looking. I get compliments everywhere I go. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.717Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f940e718-d60c-434b-af2c-9eb4a73047dd",
+  "fields": {
+    "product": "c99abd57-1a0c-46cb-af4c-509a41fee546",
+    "user": [
+      "zola.dube@soiereview.com"
+    ],
+    "reviewer_name": "Zola Dube",
+    "message": "I've tried many straight wigs but this one is by far the best. The quality is unmatched.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.837Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f9af987c-5c52-4463-add3-5f97cb48c45d",
+  "fields": {
+    "product": "4c0c966e-82ce-41d1-bbae-0b4aeacf95b5",
+    "user": [
+      "gloria.ntombela@soiereview.com"
+    ],
+    "reviewer_name": "Gloria Ntombela",
+    "message": "I've tried many straight wigs but this one is by far the best. The quality is unmatched. Would recommend to anyone looking for quality virgin hair wigs.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.026Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "f9fae183-fd93-42e1-b8ee-48ed34ffef4a",
+  "fields": {
+    "product": "f9b99115-67c8-448c-8a4f-b96898a02e65",
+    "user": [
+      "sophie.mensah@soiereview.com"
+    ],
+    "reviewer_name": "Sophie Mensah",
+    "message": "Highly recommend SOIE! Customer for life after this purchase.",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.933Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "fabcce44-369a-48e7-84d4-b30cbbf16ea3",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "funke.adeleke@soiereview.com"
+    ],
+    "reviewer_name": "Funke Adeleke",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.819Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "fca16f46-c318-4cf2-819b-dfc77a2f2657",
+  "fields": {
+    "product": "31ac0f2b-ec9c-41d9-9d7e-b9abb02eceb3",
+    "user": [
+      "nkechi.okoro@soiereview.com"
+    ],
+    "reviewer_name": "Nkechi Okoro",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.912Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "fe6ef6dc-dd54-45b9-a2bf-f4c70ca4e960",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "esther.anane@soiereview.com"
+    ],
+    "reviewer_name": "Esther Anane",
+    "message": "Exceeded my expectations in every way. So happy with this purchase!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.058Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "fe704e6a-8114-4762-ab3f-e4ef8c724123",
+  "fields": {
+    "product": "ebcb8ad6-a03b-4838-9ec6-411785a60661",
+    "user": [
+      "blessing.osei@soiereview.com"
+    ],
+    "reviewer_name": "Blessing Osei",
+    "message": "The shipping was fast and the packaging was beautiful. Love this wig!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:46.813Z"
+  }
+},
+{
+  "model": "products.review",
   "pk": "fe7ef39b-23f2-497b-8f30-02ee551cfecd",
   "fields": {
     "product": "3e664da6-2dd9-429e-b6c7-0e7ef2111ec9",
@@ -5765,6 +11535,21 @@
     "rating": 5,
     "is_approved": true,
     "created_at": "2026-05-23T17:21:03.991Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": "ff3b0a21-1ea0-4a4d-990f-c0ddee75cf32",
+  "fields": {
+    "product": "e6bfd10a-b5c0-4de0-86fa-8c900b4ac262",
+    "user": [
+      "florence.mwangi@soiereview.com"
+    ],
+    "reviewer_name": "Florence Mwangi",
+    "message": "The curls are so defined and springy. Looks just like my natural hair!",
+    "rating": 5,
+    "is_approved": true,
+    "created_at": "2026-05-23T17:57:47.060Z"
   }
 },
 {
