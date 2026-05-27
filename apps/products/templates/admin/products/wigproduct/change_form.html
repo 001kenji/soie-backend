@@ -1,0 +1,187 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls static %}
+
+{% block content %}
+{{ block.super }}
+
+{% if show_upload_modal %}
+<!-- Modal HTML injected at end of content area -->
+<div id="bulk-upload-container" style="margin: 20px 0 30px; display: none;">
+  <button type="button"
+          id="bulk-upload-btn"
+          class="btn btn-primary"
+          style="padding:10px 18px; font-weight:600;">
+    <i class="fas fa-images"></i> Bulk Upload Images
+  </button>
+  <span style="color:#666; font-size:13px; margin-left:10px;">
+    Select multiple images and upload them at once.
+  </span>
+</div>
+
+<dialog id="bulk-upload-modal"
+        style="border:1px solid #ccc; border-radius:8px; padding:0; max-width:520px; width:90%; box-shadow:0 10px 25px rgba(0,0,0,0.2); z-index: 9999;">
+  <div style="padding:20px 24px;">
+    <h2 style="margin:0 0 12px; font-size:18px; color:#333;">Bulk Upload Images</h2>
+    <p style="margin:0 0 18px; color:#555; font-size:14px;">
+      Choose multiple files from your computer. The first image can be set as the primary image automatically.
+    </p>
+
+    <form id="bulk-upload-form" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div style="margin-bottom:16px;">
+        <input type="file" name="images" id="bulk-images" multiple accept="image/*"
+               style="display:block; margin-bottom:10px; font-size:14px;">
+        <label style="display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; color:#333;">
+          <input type="checkbox" name="set_first_as_primary" id="set-first-primary" value="true" checked>
+          Set first uploaded image as primary
+        </label>
+      </div>
+
+      <div id="upload-progress" style="display:none; margin-bottom:14px;">
+        <div style="background:#e0e0e0; border-radius:4px; overflow:hidden; height:18px;">
+          <div id="progress-bar" style="width:0%; height:100%; background:#417690; transition:width .3s;"></div>
+        </div>
+        <p id="progress-text" style="margin:6px 0 0; font-size:12px; color:#666;">Preparing upload…</p>
+      </div>
+
+      <div id="upload-message" style="margin-bottom:14px; font-size:14px;"></div>
+
+      <div style="display:flex; gap:10px; justify-content:flex-end;">
+        <button type="button" class="btn btn-secondary" id="cancel-upload-btn"
+                style="padding:8px 16px;">Cancel</button>
+        <button type="submit" class="btn btn-success"
+                style="padding:8px 16px;">Upload</button>
+      </div>
+    </form>
+  </div>
+</dialog>
+{% endif %}
+{% endblock %}
+
+{% block extrajs %}
+{{ block.super }}
+{% if show_upload_modal %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Move the button to appear right after the inline forms
+  const container = document.getElementById('bulk-upload-container');
+  const inlineGroup = document.querySelector('.inline-group') || document.querySelector('#wigimage_set-group');
+  
+  if (container) {
+    container.style.display = 'block';
+    if (inlineGroup && inlineGroup.parentNode) {
+      inlineGroup.parentNode.insertBefore(container, inlineGroup.nextSibling);
+    }
+  }
+
+  const modal       = document.getElementById('bulk-upload-modal');
+  const btn         = document.getElementById('bulk-upload-btn');
+  const cancelBtn   = document.getElementById('cancel-upload-btn');
+  const form        = document.getElementById('bulk-upload-form');
+  const msgDiv      = document.getElementById('upload-message');
+  const progDiv     = document.getElementById('upload-progress');
+  const bar         = document.getElementById('progress-bar');
+  const progTxt     = document.getElementById('progress-text');
+
+  if (!modal || !btn || !form) {
+    console.error('[Bulk Upload] Required elements not found in DOM');
+    console.log('modal:', modal, 'btn:', btn, 'form:', form);
+    return;
+  }
+
+  btn.addEventListener('click', function() {
+    modal.showModal();
+  });
+
+  cancelBtn.addEventListener('click', function() {
+    modal.close();
+  });
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const fileInput = document.getElementById('bulk-images');
+    const files = fileInput.files;
+    const setPrimary = document.getElementById('set-first-primary').checked;
+
+    console.log('[Bulk Upload] Selected files:', files.length);
+    for (let i = 0; i < files.length; i++) {
+      console.log(`[Bulk Upload] File ${i}:`, files[i].name, files[i].size, files[i].type);
+    }
+
+    if (!files.length) {
+      msgDiv.innerHTML = '<span style="color:#ba2121;">Please select at least one image.</span>';
+      return;
+    }
+
+    const formData = new FormData();
+    for (let i = 0; i < files.length; i++) {
+      formData.append('images', files[i]);
+    }
+    formData.append('set_first_as_primary', setPrimary ? 'true' : 'false');
+
+    console.log('[Bulk Upload] FormData entries:');
+    for (let pair of formData.entries()) {
+      console.log('  ', pair[0], ':', pair[1] instanceof File ? `File(${pair[1].name})` : pair[1]);
+    }
+
+    msgDiv.innerHTML = '';
+    progDiv.style.display = 'block';
+    bar.style.width = '0%';
+    bar.style.background = '#417690';
+    progTxt.textContent = 'Uploading ' + files.length + ' image(s)…';
+
+    const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]');
+    if (!csrfToken) {
+      console.error('[Bulk Upload] CSRF token not found');
+      msgDiv.innerHTML = '<span style="color:#ba2121;">CSRF token missing. Refresh the page.</span>';
+      return;
+    }
+
+    const url = '{{ api_upload_url }}';
+    console.log('[Bulk Upload] POST URL:', url);
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'X-CSRFToken': csrfToken.value,
+          'X-Requested-With': 'XMLHttpRequest'
+        }
+      });
+
+      console.log('[Bulk Upload] Response status:', response.status);
+      const data = await response.json();
+      console.log('[Bulk Upload] Response data:', data);
+
+      if (response.ok && data.success) {
+        bar.style.width = '100%';
+        msgDiv.innerHTML = '<span style="color:#006600; font-weight:600;">' + data.message + '</span>';
+        progTxt.textContent = 'Done! Reloading…';
+        setTimeout(() => window.location.reload(), 1200);
+      } else {
+        const errMsg = data.error || data.detail || 'Upload failed';
+        const debugInfo = data.debug ? '<br><small style="color:#999;">Debug: ' + JSON.stringify(data.debug) + '</small>' : '';
+        throw new Error(errMsg + debugInfo);
+      }
+    } catch (err) {
+      console.error('[Bulk Upload] Error:', err);
+      bar.style.width = '100%';
+      bar.style.background = '#ba2121';
+      progTxt.textContent = 'Failed';
+      msgDiv.innerHTML = '<span style="color:#ba2121;">Error: ' + err.message + '</span>';
+    }
+  });
+
+  modal.addEventListener('close', function() {
+    form.reset();
+    msgDiv.innerHTML = '';
+    progDiv.style.display = 'none';
+    bar.style.width = '0%';
+    bar.style.background = '#417690';
+  });
+});
+</script>
+{% endif %}
+{% endblock %}

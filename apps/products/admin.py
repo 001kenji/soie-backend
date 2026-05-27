@@ -7,13 +7,13 @@ from django.template.response import TemplateResponse
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
-import json
+import json,logging
 from .models import WigProduct, WigImage, InchPricing, Review, Category,HeroImage   
 from .widgets import MultipleFileField
-
+from django.urls import reverse
 
 # ─── Form for traditional bulk upload (kept for fallback) ───────────────────
-
+logger = logging.getLogger(__name__)  # <-- THIS MUST BE HERE, at module level
 class BulkImageUploadForm(forms.Form):
     images = MultipleFileField(
         label="Images",
@@ -51,35 +51,34 @@ class InchPricingInline(admin.TabularInline):
 
 @admin.register(WigProduct)
 class WigProductAdmin(admin.ModelAdmin):
-    list_display    = (
+    change_form_template = "admin/products/wigproduct/change_form.html"
+    list_display = (
         "product_thumbnail", "name", "category", "hair_type",
         "lace_type", "density", "is_featured", "is_trending", "is_active", "created_at",
     )
-    list_filter     = ("category", "hair_type", "lace_type", "is_featured", "is_trending", "is_active")
-    search_fields   = ("name", "description")
+    list_filter = ("category", "hair_type", "lace_type", "is_featured", "is_trending", "is_active")
+    search_fields = ("name", "description")
     prepopulated_fields = {"slug": ("name",)}
-    list_editable   = ("is_featured", "is_trending", "is_active")
-    inlines         = [WigImageInline, InchPricingInline]
-    save_on_top     = True
+    list_editable = ("is_featured", "is_trending", "is_active")
+    inlines = [WigImageInline, InchPricingInline]
+    save_on_top = True
 
-    # ─── Custom URLs ──────────────────────────────────────────────────────────
     def get_urls(self):
         urls = super().get_urls()
         custom = [
             path(
                 "<uuid:product_id>/bulk-upload/",
                 self.admin_site.admin_view(self.bulk_upload_view),
-                name="products_wigproduct_bulk_upload",
+                name="products_wigproduct_bulk_upload",   # <-- must match reverse() name
             ),
             path(
                 "<uuid:product_id>/api-upload/",
                 self.admin_site.admin_view(self.api_upload_view),
-                name="products_wigproduct_api_upload",
+                name="products_wigproduct_api_upload",    # <-- must match reverse() name
             ),
         ]
         return custom + urls
 
-    # ─── Traditional bulk upload view (form-based) ─────────────────────────────
     def bulk_upload_view(self, request, product_id):
         product = get_object_or_404(WigProduct, id=product_id)
 
@@ -112,45 +111,75 @@ class WigProductAdmin(admin.ModelAdmin):
         }
         return TemplateResponse(request, "admin/bulk_image_upload.html", context)
 
-    # ─── API upload view (fetch/XHR endpoint) ──────────────────────────────────
     @method_decorator(csrf_exempt)
     def api_upload_view(self, request, product_id):
         """Handle AJAX/fetch multi-file upload from admin modal."""
+        logger.info("=" * 60)
+        logger.info(f"API upload called for product {product_id}")
+        logger.info(f"Method: {request.method}")
+        logger.info(f"Content-Type header: {request.headers.get('Content-Type', 'NOT SET')}")
+        logger.info(f"POST keys: {list(request.POST.keys())}")
+        logger.info(f"FILES keys: {list(request.FILES.keys())}")
+        
         if request.method != "POST":
+            logger.warning("Rejected: not POST")
             return JsonResponse({"error": "POST only"}, status=405)
 
         product = get_object_or_404(WigProduct, id=product_id)
         files = request.FILES.getlist("images")
         set_primary = request.POST.get("set_first_as_primary") == "true"
 
+        logger.info(f"Number of files in request.FILES.getlist('images'): {len(files)}")
+        for idx, f in enumerate(files):
+            logger.info(f"  File {idx}: name='{f.name}', size={f.size}, type='{f.content_type}'")
+
         if not files:
-            return JsonResponse({"error": "No images provided"}, status=400)
+            logger.warning("No files found in request")
+            return JsonResponse({
+                "error": "No images provided",
+                "debug": {
+                    "content_type": request.headers.get('Content-Type'),
+                    "post_data_keys": list(request.POST.keys()),
+                    "files_data_keys": list(request.FILES.keys()),
+                    "raw_post": str(request.POST)[:500],
+                }
+            }, status=400)
 
         try:
             created = self._process_uploaded_files(product, files, set_primary)
+            logger.info(f"Successfully created {created} WigImage records")
             return JsonResponse({
                 "success": True,
                 "created": created,
                 "message": f"{created} image{'s' if created != 1 else ''} uploaded",
             })
         except Exception as e:
-            return JsonResponse({"error": str(e)}, status=500)
+            logger.exception("Failed to process uploaded files")
+            return JsonResponse({
+                "error": str(e),
+                "error_type": type(e).__name__,
+            }, status=500)
 
-    # ─── Shared file processing logic ────────────────────────────────────────────
     def _process_uploaded_files(self, product, files, set_primary):
         """Create WigImage records from uploaded files."""
         created = 0
         existing_count = WigImage.objects.filter(product=product).count()
+        logger.info(f"Processing {len(files)} files for product {product.id}. Existing images: {existing_count}")
 
         for idx, f in enumerate(files):
             is_primary = (idx == 0 and set_primary and existing_count == 0)
-            WigImage.objects.create(
+            alt = f.name.rsplit(".", 1)[0].replace("-", " ").replace("_", " ").title()
+            
+            logger.info(f"Creating WigImage: file='{f.name}', primary={is_primary}, order={existing_count + idx}")
+            
+            wig_image = WigImage.objects.create(
                 product=product,
                 image=f,
-                alt_text=f.name.rsplit(".", 1)[0].replace("-", " ").replace("_", " ").title(),
+                alt_text=alt,
                 is_primary=is_primary,
                 order=existing_count + idx,
             )
+            logger.info(f"Created WigImage id={wig_image.id}, image path={wig_image.image.path if wig_image.image else 'NO IMAGE'}")
             created += 1
 
         return created
@@ -166,13 +195,19 @@ class WigProductAdmin(admin.ModelAdmin):
         return "—"
     product_thumbnail.short_description = "Preview"
 
-    # ─── Inject upload modal + button into change form ─────────────────────────
     def change_view(self, request, object_id, form_url="", extra_context=None):
         extra_context = extra_context or {}
-        extra_context["bulk_upload_url"] = f"../{object_id}/bulk-upload/"
-        extra_context["api_upload_url"] = f"../{object_id}/api-upload/"
+        extra_context["bulk_upload_url"] = reverse(
+            "admin:products_wigproduct_bulk_upload",
+            args=[object_id],
+        )
+        extra_context["api_upload_url"] = reverse(
+            "admin:products_wigproduct_api_upload",
+            args=[object_id],
+        )
         extra_context["show_upload_modal"] = True
         return super().change_view(request, object_id, form_url, extra_context)
+
 
 
 @admin.register(Category)

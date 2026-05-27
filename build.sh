@@ -6,5 +6,5 @@ pip install -r requirements.txt
 python manage.py collectstatic --no-input
 python manage.py makemigrations accounts orders payments products shipping 
 python manage.py migrate
-# python manage.py loaddata soie_data.json
-# python create_superuser.py
+python manage.py loaddata soie_data.json
+python create_superuser.py
